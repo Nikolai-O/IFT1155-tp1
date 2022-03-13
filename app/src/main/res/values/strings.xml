@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IFT1155-tp1</string>
+    <string name="welcome">Welcome to the 1155 Weather App</string>
+    <string name="weatherBtn">Weather</string>
+    <string name="aboutBtn">About</string>
+    <string name="helpBtn">Help</string>
+    <string name="qcBtn">Quebec</string>
+    <string name="about">This app was designed by Nikolai Olekhnovitch for IFT1155 in the winter of 2022.</string>
+    <string name="help">To see weather, tap on the weather button. Then select your desired province and then desired city.</string>
+    <string name="backBtn">Back</string>
+    <string name="gaspeBtn">Gaspe</string>
+    <string name="mtlBtn">Montreal</string>
+    <string name="madeleinBtn">Iles de la Madeleine</string>
+    <string name="quebecButton">Quebec</string>
+    <string name="SalluitBtn">Salluit</string>
+    <string name="weather">The current weather is:</string>>
+</resources>

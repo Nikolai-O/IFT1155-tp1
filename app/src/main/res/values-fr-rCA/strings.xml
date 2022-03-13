@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IFT1155-tp1</string>
+    <string name="welcome">Bienvenue à l\'appli de Météo 1155</string>
+    <string name="qcBtn">Québec</string>
+    <string name="about">Cette application a été créée par Nikolai Olekhnovitch pour le cours IFT1155 à l\'hiver 2022.</string>
+    <string name="help">Pour voir la météo, tappez le bouton météo. Ensuite choisissez la province et la ville voulue.</string>
+    <string name="backBtn">Retour</string>
+    <string name="weatherBtn">Météo</string>
+    <string name="aboutBtn">À propos</string>
+    <string name="helpBtn">Aide</string>
+    <string name="gaspeBtn">Gaspé</string>
+    <string name="mtlBtn">Montréal</string>
+    <string name="madeleinBtn">Îles de la Madeleine</string>
+    <string name="quebecButton">Québec</string>
+    <string name="SalluitBtn">Salluit</string>
+    <string name="weather">"Météo actuelle: "</string>
+</resources>
