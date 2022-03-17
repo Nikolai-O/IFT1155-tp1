@@ -55,12 +55,9 @@ public class Cities extends AppCompatActivity {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.montreal);
             WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
-            //InputStream is2 = getResources().openRawResource(R.raw.montreal);
-            //String currentCondition = parser.parse(is2).get(1).toString();
-            Log.i("input", weather.currentCondition + weather.currentTemperature);
-            //Log.i("input", "Temperature actuelle (currentTemperature)" + currentTemperature + "Condition actuelle ");
+            Log.i("input", weather.currentCondition + " " + weather.currentTemperature + " " + weather.windSpeed + "km/h" + " from " + weather.windDirection);
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("currentTemperature", weather.currentCondition + weather.currentTemperature);
+            intent.putExtra("currentTemperature", weather.currentCondition + weather.currentTemperature + " " + weather.windSpeed + "km/h" + " from " + weather.windDirection);
             intent.putExtra("currentCondition", weather.currentCondition);
             startActivity(intent);
         }
