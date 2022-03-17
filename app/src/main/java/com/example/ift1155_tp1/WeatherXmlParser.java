@@ -44,32 +44,38 @@ public class WeatherXmlParser {
     }
 
     public static class Entry {
-        public final String temperature;
+        public final String currentTemperature;
+        public final String currentCondition;
 
-        private Entry(String temperature) {
-            this.temperature = temperature;
+        private Entry(String temperature, String currentCondition) {
+            this.currentTemperature = temperature;
+            this.currentCondition = currentCondition;
         }
 
         public String toString() {
-            return this.temperature;
+            return this.currentTemperature + " " + this.currentCondition;
         }
     }
 
     private Entry readEntry(XmlPullParser parser) throws XmlPullParserException, IOException {
         parser.require(XmlPullParser.START_TAG, ns, "currentConditions");
         String temperature = null;
+        String currentCondition = null;
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
             }
             String name = parser.getName();
-            if (name.equals("temperature")) {
+            if (name.equals("condition")) {
+                currentCondition = readCurrentCondition(parser);
+            }
+            else if (name.equals("temperature")) {
                 temperature = readTemperature(parser);
             } else {
                 skip(parser);
             }
         }
-        return new Entry(temperature);
+        return new Entry(temperature, currentCondition);
     }
 
     private String readTemperature(XmlPullParser parser) throws IOException, XmlPullParserException {
@@ -77,6 +83,13 @@ public class WeatherXmlParser {
         String temperature = readText(parser);
         parser.require(XmlPullParser.END_TAG, ns, "temperature");
         return temperature;
+    }
+
+    private String readCurrentCondition(XmlPullParser parser) throws IOException, XmlPullParserException {
+        parser.require(XmlPullParser.START_TAG, ns, "condition");
+        String currentCondition = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "condition");
+        return currentCondition;
     }
 
     private String readText(XmlPullParser parser) throws IOException, XmlPullParserException {

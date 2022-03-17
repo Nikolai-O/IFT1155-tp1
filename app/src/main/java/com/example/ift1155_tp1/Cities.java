@@ -2,6 +2,7 @@ package com.example.ift1155_tp1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -36,7 +37,7 @@ public class Cities extends AppCompatActivity {
             InputStream is = getResources().openRawResource(R.raw.gaspe);
             // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("temperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
             startActivity(intent);
         }
 
@@ -45,25 +46,31 @@ public class Cities extends AppCompatActivity {
             InputStream is = getResources().openRawResource(R.raw.madeleine);
             // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("temperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
+            is.close();
             startActivity(intent);
         }
 
         else if ( v == montreal ) {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.montreal);
-            // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
+            WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
+            //InputStream is2 = getResources().openRawResource(R.raw.montreal);
+            //String currentCondition = parser.parse(is2).get(1).toString();
+            Log.i("input", weather.currentCondition + weather.currentTemperature);
+            //Log.i("input", "Temperature actuelle (currentTemperature)" + currentTemperature + "Condition actuelle ");
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("temperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature", weather.currentCondition + weather.currentTemperature);
+            intent.putExtra("currentCondition", weather.currentCondition);
             startActivity(intent);
         }
 
         else if ( v == quebec ) {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.quebec);
-            // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
+            //Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("temperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
             startActivity(intent);
         }
 
@@ -72,7 +79,7 @@ public class Cities extends AppCompatActivity {
             InputStream is = getResources().openRawResource(R.raw.salluit);
             // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("temperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
             startActivity(intent);
         }
     }

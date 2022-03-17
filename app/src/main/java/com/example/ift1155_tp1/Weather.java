@@ -15,7 +15,7 @@ public class Weather extends AppCompatActivity {
         setContentView(R.layout.weather);
         TextView tv = findViewById(R.id.weatherText);
         Intent ville = getIntent();
-        String temperature = ville.getStringExtra("temperature");
+        String temperature = ville.getStringExtra("currentTemperature");
         tv.setText(tv.getText() + " " + temperature);
     }
 
