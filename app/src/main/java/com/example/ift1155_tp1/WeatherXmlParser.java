@@ -28,7 +28,6 @@ public class WeatherXmlParser {
 
     private List readFeed(XmlPullParser parser) throws XmlPullParserException, IOException {
         List entries= new ArrayList();
-        int count = 0;
         parser.require(XmlPullParser.START_TAG, ns, "siteData");
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
@@ -36,21 +35,12 @@ public class WeatherXmlParser {
             }
             String name = parser.getName();
             if (name.equals("currentConditions")) {
-                Log.i("forecast", "conditions found");
                 entries.add(readEntry(parser));
-            } else if (name.equals("forecastGroup"))
-                Log.i("forecast", "found");
-            else if (name.equals("hourlyForecastGroup"))
-                Log.i("forecast", "hourlyForecastGroup found");
-            else {
-                Log.i("forecast", "skipped " + name);
-                count++;
+            } else {
                 skip(parser);
-                Log.i("forecast", "Count = " + count);
             }
         }
         return entries;
-
     }
 
     public static class Entry {
@@ -58,12 +48,28 @@ public class WeatherXmlParser {
         public final String currentCondition;
         public final String windSpeed;
         public final String windDirection;
+        public final String summary;
+        public final String tmr;
+        public final String tmrSummary;
+        public final String tmrTemp;
+        public final String afterTmr;
+        public final String afterTmrSummary;
+        public final String afterTmrTemp;
 
-        private Entry(String temperature, String currentCondition, String windSpeed, String windDirection) {
+        private Entry(String temperature, String currentCondition, String windSpeed,
+                      String windDirection, String summary, String tmr, String tmrSummary, String tmrTemp,
+                      String afterTmr, String afterTmrSummary, String afterTmrTemp) {
             this.currentTemperature = temperature;
             this.currentCondition = currentCondition;
             this.windSpeed = windSpeed;
             this.windDirection = windDirection;
+            this.summary = summary;
+            this.tmr = tmr;
+            this.tmrSummary = tmrSummary;
+            this.tmrTemp = tmrTemp;
+            this.afterTmr = afterTmr;
+            this.afterTmrSummary = afterTmrSummary;
+            this.afterTmrTemp = afterTmrTemp;
         }
 
         public String toString() {
@@ -77,6 +83,14 @@ public class WeatherXmlParser {
         String currentCondition = null;
         String windSpeed = null;
         String windDirection = null;
+        String summary = null;
+        String tmr = null;
+        String tmrSummary = null;
+        String tmrTemp = null;
+        String afterTmr = null;
+        String afterTmrSummary = null;
+        String afterTmrTemp = null;
+
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
@@ -91,11 +105,34 @@ public class WeatherXmlParser {
             else if (name.equals("wind")) {
                 windSpeed = readWindSpeed(parser);
                 windDirection = readWindDirection(parser);
+
+                findTag(parser, "forecastGroup");
+                findTag(parser, "forecast");
+                findTag(parser, "textSummary");
+                summary = readSummary(parser);
+
+                findTag(parser, "forecast");
+                findTag(parser, "forecast");
+                findTag(parser, "period");
+                tmr = readTmr(parser);
+                findTag(parser, "textSummary");
+                tmrSummary = readTmrSummary(parser);
+                findTag(parser, "temperature");
+                tmrTemp = readTmrTemp(parser);
+
+                findTag(parser, "forecast");
+                findTag(parser, "forecast");
+                findTag(parser, "period");
+                afterTmr = readTmr(parser);
+                findTag(parser, "textSummary");
+                afterTmrSummary = readAfterTmrSummary(parser);
+                findTag(parser, "temperature");
+                afterTmrTemp = readAfterTmrTemp(parser);
             } else {
                 skip(parser);
             }
         }
-        return new Entry(temperature, currentCondition, windSpeed, windDirection);
+        return new Entry(temperature, currentCondition, windSpeed, windDirection, summary, tmr, tmrSummary, tmrTemp, afterTmr, afterTmrSummary, afterTmrTemp);
     }
 
     private String readTemperature(XmlPullParser parser) throws IOException, XmlPullParserException {
@@ -113,22 +150,77 @@ public class WeatherXmlParser {
     }
 
     private String readWindSpeed(XmlPullParser parser) throws IOException, XmlPullParserException {
-        parser.next();
-        parser.next();
-        parser.next();
-        return parser.getText();
+        //tagSkipper(parser, 3);
+        findTag(parser,"speed");
+        parser.require(XmlPullParser.START_TAG, ns, "speed");
+        String windSpeed = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "speed");
+        return windSpeed;
     }
 
     private String readWindDirection(XmlPullParser parser) throws IOException, XmlPullParserException {
-        parser.next();
-        parser.next();
-        parser.next();
-        parser.next();
-        parser.next();
-        parser.next();
-        parser.next();
-        parser.next();
-        return parser.getText();
+        //tagSkipper(parser, 8);
+        findTag(parser,"direction");
+        parser.require(XmlPullParser.START_TAG, ns, "direction");
+        String direction = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "direction");
+        return direction;
+    }
+
+    private String readSummary(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "textSummary");
+        String summary = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "textSummary");
+
+        return summary;
+    }
+
+    private String readTmr(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "period");
+        String tmr = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "period");
+
+        return tmr;
+    }
+
+    private String readTmrSummary(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "textSummary");
+        String tmrSummary = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "textSummary");
+
+        return tmrSummary;
+    }
+
+    private String readTmrTemp(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "temperature");
+        String tmrTemp = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "temperature");
+
+        return tmrTemp;
+    }
+
+    private String readAfterTmr(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "period");
+        String afterTmr = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "period");
+
+        return afterTmr;
+    }
+
+    private String readAfterTmrSummary(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "textSummary");
+        String afterTmrSummary = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "textSummary");
+
+        return afterTmrSummary;
+    }
+
+    private String readAfterTmrTemp(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, "temperature");
+        String afterTmrTemp = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "temperature");
+
+        return afterTmrTemp;
     }
 
     private String readText(XmlPullParser parser) throws IOException, XmlPullParserException {
@@ -156,5 +248,24 @@ public class WeatherXmlParser {
             }
         }
 
+    }
+
+    private void tagSkipper(XmlPullParser par, int amount) throws XmlPullParserException, IOException {
+        for (int i = 0; i < amount; i++)
+            par.next();
+    }
+
+    private void findTag(XmlPullParser par, String tag) throws XmlPullParserException, IOException {
+        Boolean found = false;
+        String tagName;
+        while (!found) {
+            par.next();
+            if(par.getEventType() != XmlPullParser.START_TAG)
+                continue;
+            tagName = par.getName();
+
+            if (tagName.equals(tag))
+                found = true;
+        }
     }
 }

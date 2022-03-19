@@ -35,19 +35,56 @@ public class Cities extends AppCompatActivity {
         if ( v == gaspe ) {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.gaspe);
-            // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
+            WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
+            Log.i("Weather", "Gaspé");
+            Log.i("Weather", "Current Conditions: " + weather.currentCondition);
+            Log.i("Weather", "Current temperature: " + weather.currentTemperature);
+            Log.i("Weather", "Current wind speed: " + weather.windSpeed);
+            Log.i("Weather", "Current direction: " + weather.windDirection);
+            Log.i("Weather", "Current summary: " + weather.summary);
+            Log.i("Weather", weather.tmr + ": " + weather.tmrSummary + " Temperature: " + weather.tmrTemp);
+            Log.i("Weather", weather.afterTmr + ": " + weather.afterTmrSummary + " Temperature: " + weather.afterTmrTemp);
+            Log.i("Weather", "");
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature",  weather.currentTemperature);
+            intent.putExtra("currentCondition", weather.currentCondition);
+            intent.putExtra("windSpeed", weather.windSpeed);
+            intent.putExtra("windDirection", weather.windDirection);
+            intent.putExtra("summary", weather.summary);
+            intent.putExtra("tmr", weather.tmr);
+            intent.putExtra("tmrSummary", weather.tmrSummary);
+            intent.putExtra("tmrTemp", weather.tmrTemp);
+            intent.putExtra("afterTmr", weather.afterTmr);
+            intent.putExtra("afterTmrSummary", weather.afterTmrSummary);
+            intent.putExtra("afterTmrTemp", weather.afterTmrTemp);
             startActivity(intent);
         }
 
         else if ( v == madeleine ) {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.madeleine);
-            // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
+            WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
+            Log.i("Weather", "Iles de la Madeleine");
+            Log.i("Weather", "Current Conditions: " + weather.currentCondition);
+            Log.i("Weather", "Current temperature: " + weather.currentTemperature);
+            Log.i("Weather", "Current wind speed: " + weather.windSpeed);
+            Log.i("Weather", "Current direction: " + weather.windDirection);
+            Log.i("Weather", "Current summary: " + weather.summary);
+            Log.i("Weather", weather.tmr + ": " + weather.tmrSummary + " Temperature: " + weather.tmrTemp);
+            Log.i("Weather", weather.afterTmr + ": " + weather.afterTmrSummary + " Temperature: " + weather.afterTmrTemp);
+            Log.i("Weather", "");
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
-            is.close();
+            intent.putExtra("currentTemperature",  weather.currentTemperature);
+            intent.putExtra("currentCondition", weather.currentCondition);
+            intent.putExtra("windSpeed", weather.windSpeed);
+            intent.putExtra("windDirection", weather.windDirection);
+            intent.putExtra("summary", weather.summary);
+            intent.putExtra("tmr", weather.tmr);
+            intent.putExtra("tmrSummary", weather.tmrSummary);
+            intent.putExtra("tmrTemp", weather.tmrTemp);
+            intent.putExtra("afterTmr", weather.afterTmr);
+            intent.putExtra("afterTmrSummary", weather.afterTmrSummary);
+            intent.putExtra("afterTmrTemp", weather.afterTmrTemp);
             startActivity(intent);
         }
 
@@ -55,28 +92,83 @@ public class Cities extends AppCompatActivity {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.montreal);
             WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
-            Log.i("input", weather.currentCondition + " " + weather.currentTemperature + " " + weather.windSpeed + "km/h" + " from " + weather.windDirection);
+            Log.i("Weather", "Montréal");
+            Log.i("Weather", "Current Conditions: " + weather.currentCondition);
+            Log.i("Weather", "Current temperature: " + weather.currentTemperature);
+            Log.i("Weather", "Current wind speed: " + weather.windSpeed);
+            Log.i("Weather", "Current direction: " + weather.windDirection);
+            Log.i("Weather", "Current summary: " + weather.summary);
+            Log.i("Weather", weather.tmr + ": " + weather.tmrSummary + " Temperature: " + weather.tmrTemp);
+            Log.i("Weather", weather.afterTmr + ": " + weather.afterTmrSummary + " Temperature: " + weather.afterTmrTemp);
+            Log.i("Weather", "");
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("currentTemperature", weather.currentCondition + weather.currentTemperature + " " + weather.windSpeed + "km/h" + " from " + weather.windDirection);
+            intent.putExtra("currentTemperature",  weather.currentTemperature);
             intent.putExtra("currentCondition", weather.currentCondition);
+            intent.putExtra("windSpeed", weather.windSpeed);
+            intent.putExtra("windDirection", weather.windDirection);
+            intent.putExtra("summary", weather.summary);
+            intent.putExtra("tmr", weather.tmr);
+            intent.putExtra("tmrSummary", weather.tmrSummary);
+            intent.putExtra("tmrTemp", weather.tmrTemp);
+            intent.putExtra("afterTmr", weather.afterTmr);
+            intent.putExtra("afterTmrSummary", weather.afterTmrSummary);
+            intent.putExtra("afterTmrTemp", weather.afterTmrTemp);
             startActivity(intent);
         }
 
         else if ( v == quebec ) {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.quebec);
-            //Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
+            WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
+            Log.i("Weather", "Québec");
+            Log.i("Weather", "Current Conditions: " + weather.currentCondition);
+            Log.i("Weather", "Current temperature: " + weather.currentTemperature);
+            Log.i("Weather", "Current wind speed: " + weather.windSpeed);
+            Log.i("Weather", "Current direction: " + weather.windDirection);
+            Log.i("Weather", "Current summary: " + weather.summary);
+            Log.i("Weather", weather.tmr + ": " + weather.tmrSummary + " Temperature: " + weather.tmrTemp);
+            Log.i("Weather", weather.afterTmr + ": " + weather.afterTmrSummary + " Temperature: " + weather.afterTmrTemp);
+            Log.i("Weather", "");
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature",  weather.currentTemperature);
+            intent.putExtra("currentCondition", weather.currentCondition);
+            intent.putExtra("windSpeed", weather.windSpeed);
+            intent.putExtra("windDirection", weather.windDirection);
+            intent.putExtra("summary", weather.summary);
+            intent.putExtra("tmr", weather.tmr);
+            intent.putExtra("tmrSummary", weather.tmrSummary);
+            intent.putExtra("tmrTemp", weather.tmrTemp);
+            intent.putExtra("afterTmr", weather.afterTmr);
+            intent.putExtra("afterTmrSummary", weather.afterTmrSummary);
+            intent.putExtra("afterTmrTemp", weather.afterTmrTemp);
             startActivity(intent);
         }
 
         else if ( v == salluit ) {
             WeatherXmlParser parser = new WeatherXmlParser();
             InputStream is = getResources().openRawResource(R.raw.salluit);
-            // Log.i("input", "Temperature actuelle " + parser.parse(is).get(0).toString());
+            WeatherXmlParser.Entry weather = (WeatherXmlParser.Entry) parser.parse(is).get(0);
+            Log.i("Weather", "Salluit");
+            Log.i("Weather", "Current Conditions: " + weather.currentCondition);
+            Log.i("Weather", "Current temperature: " + weather.currentTemperature);
+            Log.i("Weather", "Current wind speed: " + weather.windSpeed);
+            Log.i("Weather", "Current direction: " + weather.windDirection);
+            Log.i("Weather", "Current summary: " + weather.summary);
+            Log.i("Weather", weather.tmr + ": " + weather.tmrSummary + " Temperature: " + weather.tmrTemp);
+            Log.i("Weather", weather.afterTmr + ": " + weather.afterTmrSummary + " Temperature: " + weather.afterTmrTemp);
+            Log.i("Weather", "");
             Intent intent = new Intent(this, Weather.class);
-            intent.putExtra("currentTemperature", parser.parse(is).get(0).toString());
+            intent.putExtra("currentTemperature",  weather.currentTemperature);
+            intent.putExtra("currentCondition", weather.currentCondition);
+            intent.putExtra("windSpeed", weather.windSpeed);
+            intent.putExtra("windDirection", weather.windDirection);
+            intent.putExtra("summary", weather.summary);
+            intent.putExtra("tmr", weather.tmr);
+            intent.putExtra("tmrSummary", weather.tmrSummary);
+            intent.putExtra("tmrTemp", weather.tmrTemp);
+            intent.putExtra("afterTmr", weather.afterTmr);
+            intent.putExtra("afterTmrSummary", weather.afterTmrSummary);
+            intent.putExtra("afterTmrTemp", weather.afterTmrTemp);
             startActivity(intent);
         }
     }
