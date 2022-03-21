@@ -13,5 +13,8 @@
     <string name="madeleinBtn">Iles de la Madeleine</string>
     <string name="quebecButton">Quebec</string>
     <string name="SalluitBtn">Salluit</string>
-    <string name="weather">The current weather is:</string>>
+    <string name="weather">Current weather:</string>
+    <string name="degree" translatable="false">°C</string>
+    <string name="wind">"Wind: "</string>
+    <string name="km" translatable="false">km/h</string>>
 </resources>

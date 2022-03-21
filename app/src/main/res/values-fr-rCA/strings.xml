@@ -15,4 +15,5 @@
     <string name="quebecButton">Québec</string>
     <string name="SalluitBtn">Salluit</string>
     <string name="weather">"Météo actuelle: "</string>
+    <string name="wind">Vent:</string>
 </resources>
