@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-land/about.xml" value="0.2623456790123457" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-land/activity_main.xml" value="0.2945326278659612" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-land/cities.xml" value="0.2623456790123457" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-land/help.xml" value="0.2623456790123457" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-land/provinces.xml" value="0.2623456790123457" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-land/weather.xml" value="0.33" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp-land/about.xml" value="0.1361043194784026" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.1361043194784026" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp-land/cities.xml" value="0.1361043194784026" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp-land/help.xml" value="0.1361043194784026" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp-land/provinces.xml" value="0.1361043194784026" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp/about.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp/cities.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp/help.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout-sw600dp/provinces.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout/about.xml" value="0.33" />
-        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout/cities.xml" value="0.33" />
         <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout/help.xml" value="0.25" />
         <entry key="..\:/Users/Nick/AndroidStudioProjects/IFT1155tp1/app/src/main/res/layout/provinces.xml" value="0.22" />

@@ -6,9 +6,9 @@
 
     <Button
         android:id="@+id/gaspeButton"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:onClick="weather"
         android:text="@string/gaspeBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,9 +17,9 @@
 
     <Button
         android:id="@+id/madeleineButton"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="12dp"
         android:onClick="weather"
         android:text="@string/madeleinBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,9 +28,9 @@
 
     <Button
         android:id="@+id/mtlButton"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="12dp"
         android:onClick="weather"
         android:text="@string/mtlBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,9 +39,9 @@
 
     <Button
         android:id="@+id/quebecButton"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="12dp"
         android:onClick="weather"
         android:text="@string/quebecButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,9 +50,9 @@
 
     <Button
         android:id="@+id/salluitButton"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="12dp"
         android:onClick="weather"
         android:text="@string/SalluitBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,10 +63,12 @@
         android:id="@+id/backButtonCities"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:onClick="back"
         android:text="@string/backBtn"
         android:backgroundTint="#F17263"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

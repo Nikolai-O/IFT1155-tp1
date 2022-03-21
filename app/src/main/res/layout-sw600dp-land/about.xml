@@ -2,23 +2,27 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/qcButton"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="cities"
-        android:text="@string/qcBtn"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="64dp"
+        android:paddingEnd="64dp"
+        android:text="@string/about"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
 
     <Button
-        android:id="@+id/backButtonProvinces"
+        android:id="@+id/backButtonAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="back"
@@ -27,4 +31,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="759dp"
+        android:layout_height="964dp"
+        app:layout_constraintBottom_toTopOf="@+id/backButtonAbout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/nick_android" />
 </androidx.constraintlayout.widget.ConstraintLayout>

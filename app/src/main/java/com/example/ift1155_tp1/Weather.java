@@ -39,10 +39,12 @@ public class Weather extends AppCompatActivity {
         String afterTmrSummary = ville.getStringExtra("afterTmrSummary");
         String afterTmrTemp = ville.getStringExtra("afterTmrTemp");
 
+        String windSpeedTxt = (String) windSpeedTV.getText();
+
         currentTV.setText(temperature + currentTV.getText());
         currentCondition.setText(condition);
         windDirectionTV.setText(windDirection);
-        windSpeedTV.setText(windSpeed + windSpeedTV.getText());
+        windSpeedTV.setText(windSpeed + windSpeedTxt);
         summaryTV.setText(summary);
         tmrTV.setText(tmr);
         tmrSummaryTV.setText(tmrSummary);
