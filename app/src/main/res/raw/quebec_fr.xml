@@ -1,148 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<siteData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://dd.weather.gc.ca/citypage_weather/schema/site.xsd">
-    <license>https://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt</license>
+<siteData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://dd.meteo.gc.ca/citypage_weather/schema/site.xsd">
+    <license>https://dd.meteo.gc.ca/doc/LICENCE_GENERAL.txt</license>
     <dateTime name="xmlCreation" zone="UTC" UTCOffset="0">
         <year>2022</year>
-        <month name="March">03</month>
-        <day name="Tuesday">22</day>
+        <month name="mars">03</month>
+        <day name="mardi">22</day>
         <hour>02</hour>
-        <minute>10</minute>
-        <timeStamp>20220322021000</timeStamp>
-        <textSummary>Tuesday March 22, 2022 at 02:10 UTC</textSummary>
+        <minute>11</minute>
+        <timeStamp>20220322021100</timeStamp>
+        <textSummary>22 mars 2022 02h11 UTC</textSummary>
     </dateTime>
-    <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
+    <dateTime name="xmlCreation" zone="HAE" UTCOffset="-4">
         <year>2022</year>
-        <month name="March">03</month>
-        <day name="Monday">21</day>
+        <month name="mars">03</month>
+        <day name="lundi">21</day>
         <hour>22</hour>
-        <minute>10</minute>
-        <timeStamp>20220321221000</timeStamp>
-        <textSummary>Monday March 21, 2022 at 22:10 EDT</textSummary>
+        <minute>11</minute>
+        <timeStamp>20220321221100</timeStamp>
+        <textSummary>21 mars 2022 22h11 HAE</textSummary>
     </dateTime>
     <location>
-        <continent>North America</continent>
+        <continent>Amérique du Nord</continent>
         <country code="ca">Canada</country>
-        <province code="qc">Quebec</province>
-        <name code="s0000620" lat="46.82N" lon="71.22W">Québec</name>
+        <province code="qc">Québec</province>
+        <name code="s0000620" lat="46.82N" lon="71.22O">Québec</name>
         <region>Québec</region>
     </location>
     <warnings/>
     <currentConditions>
-        <station code="yqb" lat="46.79N" lon="71.39W">Quebec Lesage Int'l Airport</station>
+        <station code="yqb" lat="46.79N" lon="71.39O">Aéroport int. Lesage de Québec</station>
         <dateTime name="observation" zone="UTC" UTCOffset="0">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Tuesday">22</day>
+            <month name="mars">03</month>
+            <day name="mardi">22</day>
             <hour>02</hour>
             <minute>00</minute>
             <timeStamp>20220322020000</timeStamp>
-            <textSummary>Tuesday March 22, 2022 at 02:00 UTC</textSummary>
+            <textSummary>22 mars 2022 02h00 UTC</textSummary>
         </dateTime>
-        <dateTime name="observation" zone="EDT" UTCOffset="-4">
+        <dateTime name="observation" zone="HAE" UTCOffset="-4">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>22</hour>
             <minute>00</minute>
             <timeStamp>20220321220000</timeStamp>
-            <textSummary>Monday March 21, 2022 at 22:00 EDT</textSummary>
+            <textSummary>21 mars 2022 22h00 HAE</textSummary>
         </dateTime>
-        <condition>Mostly Cloudy</condition>
+        <condition>Généralement nuageux</condition>
         <iconCode format="gif">33</iconCode>
         <temperature unitType="metric" units="C">-1.6</temperature>
         <dewpoint unitType="metric" units="C">-7.7</dewpoint>
         <windChill unitType="metric">-7</windChill>
-        <pressure unitType="metric" units="kPa" change="0.13" tendency="rising">101.3</pressure>
+        <pressure unitType="metric" units="kPa" change="0.13" tendency="à la hausse">101.3</pressure>
         <visibility unitType="metric" units="km">24.1</visibility>
         <relativeHumidity units="%">63</relativeHumidity>
         <wind>
             <speed unitType="metric" units="km/h">18</speed>
             <gust unitType="metric" units="km/h"/>
-            <direction>WSW</direction>
+            <direction>OSO</direction>
             <bearing units="degrees">244.0</bearing>
         </wind>
     </currentConditions>
     <forecastGroup>
         <dateTime name="forecastIssue" zone="UTC" UTCOffset="0">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>19</hour>
             <minute>45</minute>
             <timeStamp>20220321194500</timeStamp>
-            <textSummary>Monday March 21, 2022 at 19:45 UTC</textSummary>
+            <textSummary>21 mars 2022 19h45 UTC</textSummary>
         </dateTime>
-        <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
+        <dateTime name="forecastIssue" zone="HAE" UTCOffset="-4">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>15</hour>
             <minute>45</minute>
             <timeStamp>20220321154500</timeStamp>
-            <textSummary>Monday March 21, 2022 at 15:45 EDT</textSummary>
+            <textSummary>21 mars 2022 15h45 HAE</textSummary>
         </dateTime>
         <regionalNormals>
-            <textSummary>Low minus 6. High plus 2.</textSummary>
+            <textSummary>Minimum moins 6. Maximum plus 2.</textSummary>
             <temperature unitType="metric" units="C" class="high">2</temperature>
             <temperature unitType="metric" units="C" class="low">-6</temperature>
         </regionalNormals>
         <forecast>
-            <period textForecastName="Tonight">Monday night</period>
-            <textSummary>Mainly cloudy with 40 percent chance of flurries. Wind west 20 km/h gusting to 40. Low minus 6. Wind chill minus 13 overnight.</textSummary>
+            <period textForecastName="Ce soir et cette nuit">ce soir et cette nuit</period>
+            <textSummary>Généralement nuageux avec 40 pour cent de probabilité d'averses de neige. Vents d'ouest de 20 km/h avec rafales à 40. Minimum moins 6. Refroidissement éolien moins 13 au cours de la nuit.</textSummary>
             <cloudPrecip>
-                <textSummary>Mainly cloudy with 40 percent chance of flurries.</textSummary>
+                <textSummary>Généralement nuageux avec 40 pour cent de probabilité d'averses de neige.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">38</iconCode>
                 <pop units="%">40</pop>
-                <textSummary>Chance of flurries</textSummary>
+                <textSummary>Possibilité d'averses de neige</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>Low minus 6.</textSummary>
+                <textSummary>Minimum moins 6.</textSummary>
                 <temperature unitType="metric" units="C" class="low">-6</temperature>
             </temperatures>
             <winds>
-                <textSummary>Wind west 20 km/h gusting to 40.</textSummary>
+                <textSummary>Vents d'ouest de 20 km/h avec rafales à 40.</textSummary>
                 <wind index="1" rank="major">
                     <speed unitType="metric" units="km/h">20</speed>
                     <gust unitType="metric" units="km/h">40</gust>
-                    <direction>W</direction>
+                    <direction>O</direction>
                     <bearing units="degrees">27</bearing>
                 </wind>
             </winds>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="20" end="34">snow</precipType>
+                <precipType start="20" end="34">neige</precipType>
             </precipitation>
             <windChill>
-                <textSummary>Wind chill minus 13 overnight.</textSummary>
-                <calculated unitType="metric" class="overnight">-13</calculated>
+                <textSummary>Refroidissement éolien moins 13 au cours de la nuit.</textSummary>
+                <calculated unitType="metric" class="nuit">-13</calculated>
                 <frostbite/>
             </windChill>
             <relativeHumidity units="%">55</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Tuesday">Tuesday</period>
-            <textSummary>Mainly cloudy. Wind northwest 20 km/h gusting to 40. High plus 1. Wind chill minus 13 in the morning. UV index 2 or low.</textSummary>
+            <period textForecastName="Mardi">mardi</period>
+            <textSummary>Généralement nuageux. Vents du nord-ouest de 20 km/h avec rafales à 40. Maximum plus 1. Refroidissement éolien moins 13 le matin. Indice UV de 2 ou bas.</textSummary>
             <cloudPrecip>
-                <textSummary>Mainly cloudy.</textSummary>
+                <textSummary>Généralement nuageux.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">03</iconCode>
                 <pop units="%"/>
-                <textSummary>Mainly cloudy</textSummary>
+                <textSummary>Généralement nuageux</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>High plus 1.</textSummary>
+                <textSummary>Maximum plus 1.</textSummary>
                 <temperature unitType="metric" units="C" class="high">1</temperature>
             </temperatures>
             <winds>
-                <textSummary>Wind northwest 20 km/h gusting to 40.</textSummary>
+                <textSummary>Vents du nord-ouest de 20 km/h avec rafales à 40.</textSummary>
                 <wind index="1" rank="major">
                     <speed unitType="metric" units="km/h">20</speed>
                     <gust unitType="metric" units="km/h">40</gust>
-                    <direction>NW</direction>
+                    <direction>NO</direction>
                     <bearing units="degrees">32</bearing>
                 </wind>
             </winds>
@@ -152,37 +152,37 @@
                 <precipType start="" end=""/>
             </precipitation>
             <windChill>
-                <textSummary>Wind chill minus 13 in the morning.</textSummary>
-                <calculated unitType="metric" class="morning">-13</calculated>
+                <textSummary>Refroidissement éolien moins 13 le matin.</textSummary>
+                <calculated unitType="metric" class="matin">-13</calculated>
                 <frostbite/>
             </windChill>
-            <uv category="low">
+            <uv category="bas">
                 <index>2</index>
-                <textSummary>UV index 2 or low.</textSummary>
+                <textSummary>Indice UV de 2 ou bas.</textSummary>
             </uv>
             <relativeHumidity units="%">55</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Tuesday night">Tuesday night</period>
-            <textSummary>Clearing in the evening. Wind up to 15 km/h. Low minus 6. Wind chill minus 11 overnight.</textSummary>
+            <period textForecastName="Mardi soir et nuit">mardi soir et nuit</period>
+            <textSummary>Dégagement en soirée. Vents jusqu'à 15 km/h. Minimum moins 6. Refroidissement éolien moins 11 au cours de la nuit.</textSummary>
             <cloudPrecip>
-                <textSummary>Clearing in the evening.</textSummary>
+                <textSummary>Dégagement en soirée.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">35</iconCode>
                 <pop units="%"/>
-                <textSummary>Clearing</textSummary>
+                <textSummary>Dégagement</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>Low minus 6.</textSummary>
+                <textSummary>Minimum moins 6.</textSummary>
                 <temperature unitType="metric" units="C" class="low">-6</temperature>
             </temperatures>
             <winds>
-                <textSummary>Wind up to 15 km/h.</textSummary>
+                <textSummary>Vents jusqu'à 15 km/h.</textSummary>
                 <wind index="1" rank="major">
                     <speed unitType="metric" units="km/h">15</speed>
                     <gust unitType="metric" units="km/h">00</gust>
-                    <direction>NW</direction>
+                    <direction>NO</direction>
                     <bearing units="degrees">32</bearing>
                 </wind>
             </winds>
@@ -192,25 +192,25 @@
                 <precipType start="" end=""/>
             </precipitation>
             <windChill>
-                <textSummary>Wind chill minus 11 overnight.</textSummary>
-                <calculated unitType="metric" class="overnight">-11</calculated>
+                <textSummary>Refroidissement éolien moins 11 au cours de la nuit.</textSummary>
+                <calculated unitType="metric" class="nuit">-11</calculated>
                 <frostbite/>
             </windChill>
             <relativeHumidity units="%">80</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Wednesday">Wednesday</period>
-            <textSummary>Sunny. High plus 3.</textSummary>
+            <period textForecastName="Mercredi">mercredi</period>
+            <textSummary>Ensoleillé. Maximum plus 3.</textSummary>
             <cloudPrecip>
-                <textSummary>Sunny.</textSummary>
+                <textSummary>Ensoleillé.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">00</iconCode>
                 <pop units="%"/>
-                <textSummary>Sunny</textSummary>
+                <textSummary>Ensoleillé</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>High plus 3.</textSummary>
+                <textSummary>Maximum plus 3.</textSummary>
                 <temperature unitType="metric" units="C" class="high">3</temperature>
             </temperatures>
             <winds/>
@@ -222,18 +222,18 @@
             <relativeHumidity units="%">70</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Wednesday night">Wednesday night</period>
-            <textSummary>Cloudy. Low minus 3.</textSummary>
+            <period textForecastName="Mercredi soir et nuit">mercredi soir et nuit</period>
+            <textSummary>Nuageux. Minimum moins 3.</textSummary>
             <cloudPrecip>
-                <textSummary>Cloudy.</textSummary>
+                <textSummary>Nuageux.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">10</iconCode>
                 <pop units="%"/>
-                <textSummary>Cloudy</textSummary>
+                <textSummary>Nuageux</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>Low minus 3.</textSummary>
+                <textSummary>Minimum moins 3.</textSummary>
                 <temperature unitType="metric" units="C" class="low">-3</temperature>
             </temperatures>
             <winds/>
@@ -245,167 +245,167 @@
             <relativeHumidity units="%">70</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Thursday">Thursday</period>
-            <textSummary>Snow. High zero.</textSummary>
+            <period textForecastName="Jeudi">jeudi</period>
+            <textSummary>Neige. Maximum zéro.</textSummary>
             <cloudPrecip>
-                <textSummary>Snow.</textSummary>
+                <textSummary>Neige.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">17</iconCode>
                 <pop units="%"/>
-                <textSummary>Snow</textSummary>
+                <textSummary>Neige</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>High zero.</textSummary>
+                <textSummary>Maximum zéro.</textSummary>
                 <temperature unitType="metric" units="C" class="high">0</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="84" end="94">snow</precipType>
+                <precipType start="84" end="94">neige</precipType>
             </precipitation>
             <relativeHumidity units="%">90</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Thursday night">Thursday night</period>
-            <textSummary>Snow. Low zero.</textSummary>
+            <period textForecastName="Jeudi soir et nuit">jeudi soir et nuit</period>
+            <textSummary>Neige. Minimum zéro.</textSummary>
             <cloudPrecip>
-                <textSummary>Snow.</textSummary>
+                <textSummary>Neige.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">17</iconCode>
                 <pop units="%"/>
-                <textSummary>Snow</textSummary>
+                <textSummary>Neige</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>Low zero.</textSummary>
+                <textSummary>Minimum zéro.</textSummary>
                 <temperature unitType="metric" units="C" class="low">0</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="94" end="105">snow</precipType>
+                <precipType start="94" end="105">neige</precipType>
             </precipitation>
             <relativeHumidity units="%">90</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Friday">Friday</period>
-            <textSummary>Cloudy with 40 percent chance of showers. High plus 3.</textSummary>
+            <period textForecastName="Vendredi">vendredi</period>
+            <textSummary>Nuageux avec 40 pour cent de probabilité d'averses. Maximum plus 3.</textSummary>
             <cloudPrecip>
-                <textSummary>Cloudy with 40 percent chance of showers.</textSummary>
+                <textSummary>Nuageux avec 40 pour cent de probabilité d'averses.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">12</iconCode>
                 <pop units="%">40</pop>
-                <textSummary>Chance of showers</textSummary>
+                <textSummary>Possibilité d'averses</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>High plus 3.</textSummary>
+                <textSummary>Maximum plus 3.</textSummary>
                 <temperature unitType="metric" units="C" class="high">3</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="114" end="118">rain</precipType>
+                <precipType start="114" end="118">pluie</precipType>
             </precipitation>
             <relativeHumidity units="%">80</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Friday night">Friday night</period>
-            <textSummary>Rain or snow. Low zero.</textSummary>
+            <period textForecastName="Vendredi soir et nuit">vendredi soir et nuit</period>
+            <textSummary>Pluie ou neige. Minimum zéro.</textSummary>
             <cloudPrecip>
-                <textSummary>Rain or snow.</textSummary>
+                <textSummary>Pluie ou neige.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">15</iconCode>
                 <pop units="%"/>
-                <textSummary>Rain or snow</textSummary>
+                <textSummary>Pluie ou neige</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>Low zero.</textSummary>
+                <textSummary>Minimum zéro.</textSummary>
                 <temperature unitType="metric" units="C" class="low">0</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="118" end="126">rain</precipType>
-                <precipType start="126" end="130">snow</precipType>
+                <precipType start="118" end="126">pluie</precipType>
+                <precipType start="126" end="130">neige</precipType>
             </precipitation>
             <relativeHumidity units="%">100</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Saturday">Saturday</period>
-            <textSummary>Periods of snow or rain. High plus 5.</textSummary>
+            <period textForecastName="Samedi">samedi</period>
+            <textSummary>Neige ou pluie intermittente. Maximum plus 5.</textSummary>
             <cloudPrecip>
-                <textSummary>Periods of snow or rain.</textSummary>
+                <textSummary>Neige ou pluie intermittente.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">15</iconCode>
                 <pop units="%"/>
-                <textSummary>Periods of snow or rain</textSummary>
+                <textSummary>Neige intermittente ou pluie</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>High plus 5.</textSummary>
+                <textSummary>Maximum plus 5.</textSummary>
                 <temperature unitType="metric" units="C" class="high">5</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="130" end="132">snow</precipType>
-                <precipType start="132" end="135">rain</precipType>
-                <precipType start="141" end="142">rain</precipType>
+                <precipType start="130" end="132">neige</precipType>
+                <precipType start="132" end="135">pluie</precipType>
+                <precipType start="141" end="142">pluie</precipType>
             </precipitation>
             <relativeHumidity units="%">80</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Saturday night">Saturday night</period>
-            <textSummary>Cloudy with 40 percent chance of rain showers or flurries. Low minus 5.</textSummary>
+            <period textForecastName="Samedi soir et nuit">samedi soir et nuit</period>
+            <textSummary>Nuageux avec 40 pour cent de probabilité d'averses de pluie ou de neige. Minimum moins 5.</textSummary>
             <cloudPrecip>
-                <textSummary>Cloudy with 40 percent chance of rain showers or flurries.</textSummary>
+                <textSummary>Nuageux avec 40 pour cent de probabilité d'averses de pluie ou de neige.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">15</iconCode>
                 <pop units="%">40</pop>
-                <textSummary>Chance of rain showers or flurries</textSummary>
+                <textSummary>Possibilité d'averses de pluie ou de neige</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>Low minus 5.</textSummary>
+                <textSummary>Minimum moins 5.</textSummary>
                 <temperature unitType="metric" units="C" class="low">-5</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="142" end="144">rain</precipType>
-                <precipType start="144" end="154">snow</precipType>
+                <precipType start="142" end="144">pluie</precipType>
+                <precipType start="144" end="154">neige</precipType>
             </precipitation>
             <relativeHumidity units="%">75</relativeHumidity>
         </forecast>
         <forecast>
-            <period textForecastName="Sunday">Sunday</period>
-            <textSummary>A mix of sun and cloud with 30 percent chance of flurries. High minus 1.</textSummary>
+            <period textForecastName="Dimanche">dimanche</period>
+            <textSummary>Alternance de soleil et de nuages avec 30 pour cent de probabilité d'averses de neige. Maximum moins 1.</textSummary>
             <cloudPrecip>
-                <textSummary>A mix of sun and cloud with 30 percent chance of flurries.</textSummary>
+                <textSummary>Alternance de soleil et de nuages avec 30 pour cent de probabilité d'averses de neige.</textSummary>
             </cloudPrecip>
             <abbreviatedForecast>
                 <iconCode format="gif">08</iconCode>
                 <pop units="%">30</pop>
-                <textSummary>Chance of flurries</textSummary>
+                <textSummary>Possibilité d'averses de neige</textSummary>
             </abbreviatedForecast>
             <temperatures>
-                <textSummary>High minus 1.</textSummary>
+                <textSummary>Maximum moins 1.</textSummary>
                 <temperature unitType="metric" units="C" class="high">-1</temperature>
             </temperatures>
             <winds/>
             <humidex/>
             <precipitation>
                 <textSummary/>
-                <precipType start="154" end="156">snow</precipType>
+                <precipType start="154" end="156">neige</precipType>
             </precipitation>
             <relativeHumidity units="%">50</relativeHumidity>
         </forecast>
@@ -413,331 +413,331 @@
     <hourlyForecastGroup>
         <dateTime name="forecastIssue" zone="UTC" UTCOffset="0">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>19</hour>
             <minute>45</minute>
             <timeStamp>20220321194500</timeStamp>
-            <textSummary>Monday March 21, 2022 at 19:45 UTC</textSummary>
+            <textSummary>21 mars 2022 19h45 UTC</textSummary>
         </dateTime>
-        <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
+        <dateTime name="forecastIssue" zone="HAE" UTCOffset="-4">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>15</hour>
             <minute>45</minute>
             <timeStamp>20220321154500</timeStamp>
-            <textSummary>Monday March 21, 2022 at 15:45 EDT</textSummary>
+            <textSummary>21 mars 2022 15h45 HAE</textSummary>
         </dateTime>
         <hourlyForecast dateTimeUTC="202203220300">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-2</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-8</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203220400">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-3</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-9</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203220500">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-4</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-10</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203220600">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-5</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-12</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203220700">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-5</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-12</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203220800">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-6</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-12</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203220900">
-            <condition>Chance of flurries</condition>
+            <condition>Possibilité d'averses de neige</condition>
             <iconCode format="png">38</iconCode>
             <temperature unitType="metric" units="C">-6</temperature>
-            <lop category="Low" units="%">40</lop>
+            <lop category="Basse" units="%">40</lop>
             <windChill unitType="metric">-13</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="West">W</direction>
+                <direction windDirFull="Ouest">O</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221000">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">33</iconCode>
             <temperature unitType="metric" units="C">-6</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-13</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221100">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-6</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-13</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221200">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-6</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-13</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221300">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-5</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-12</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221400">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-5</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-11</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221500">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-4</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-10</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221600">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-3</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-9</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221700">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-3</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-9</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221800">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-2</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-8</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203221900">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">-1</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-7</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203222000">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">0</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric"/>
             <humidex/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203222100">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">1</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric"/>
             <humidex/>
             <wind>
                 <speed unitType="metric" units="km/h">20</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h">40</gust>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203222200">
-            <condition>Mainly cloudy</condition>
+            <condition>Généralement nuageux</condition>
             <iconCode format="png">03</iconCode>
             <temperature unitType="metric" units="C">0</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric"/>
             <humidex/>
             <wind>
                 <speed unitType="metric" units="km/h">15</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h"/>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203222300">
-            <condition>Partly cloudy</condition>
+            <condition>Partiellement nuageux</condition>
             <iconCode format="png">32</iconCode>
             <temperature unitType="metric" units="C">0</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric"/>
             <humidex/>
             <wind>
                 <speed unitType="metric" units="km/h">15</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h"/>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203230000">
-            <condition>Partly cloudy</condition>
+            <condition>Partiellement nuageux</condition>
             <iconCode format="png">32</iconCode>
             <temperature unitType="metric" units="C">-1</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-6</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">15</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h"/>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203230100">
-            <condition>A few clouds</condition>
+            <condition>Quelques nuages</condition>
             <iconCode format="png">31</iconCode>
             <temperature unitType="metric" units="C">-1</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-6</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">15</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h"/>
             </wind>
         </hourlyForecast>
         <hourlyForecast dateTimeUTC="202203230200">
-            <condition>Clear</condition>
+            <condition>Dégagé</condition>
             <iconCode format="png">30</iconCode>
             <temperature unitType="metric" units="C">-2</temperature>
-            <lop category="Nil" units="%">0</lop>
+            <lop category="Nulle" units="%">0</lop>
             <windChill unitType="metric">-6</windChill>
             <humidex unitType="metric"/>
             <wind>
                 <speed unitType="metric" units="km/h">15</speed>
-                <direction windDirFull="Northwest">NW</direction>
+                <direction windDirFull="Nord-ouest">NO</direction>
                 <gust unitType="metric" units="km/h"/>
             </wind>
         </hourlyForecast>
@@ -748,42 +748,42 @@
         <precip unitType="metric" units="mm">7.4</precip>
     </yesterdayConditions>
     <riseSet>
-        <disclaimer>The information provided here, for the times of the rise and set of the sun, is an estimate included as a convenience to our clients. Values shown here may differ from the official sunrise/sunset data available from (http://hia-iha.nrc-cnrc.gc.ca/sunrise_e.html)</disclaimer>
+        <disclaimer>Les heures de lever et coucher du soleil sont une estimation seulement et peuvent être différentes des heures officielles de lever et coucher du soleil disponibles ici ( http://hia-iha.nrc-cnrc.gc.ca/sunrise_f.html )</disclaimer>
         <dateTime name="sunrise" zone="UTC" UTCOffset="0">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>10</hour>
             <minute>46</minute>
             <timeStamp>20220321104600</timeStamp>
-            <textSummary>Monday March 21, 2022 at 10:46 UTC</textSummary>
+            <textSummary>21 mars 2022 10h46 UTC</textSummary>
         </dateTime>
-        <dateTime name="sunrise" zone="EDT" UTCOffset="-4">
+        <dateTime name="sunrise" zone="HAE" UTCOffset="-4">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>06</hour>
             <minute>46</minute>
             <timeStamp>20220321064600</timeStamp>
-            <textSummary>Monday March 21, 2022 at 06:46 EDT</textSummary>
+            <textSummary>21 mars 2022 06h46 HAE</textSummary>
         </dateTime>
         <dateTime name="sunset" zone="UTC" UTCOffset="0">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>22</hour>
             <minute>58</minute>
             <timeStamp>20220321225800</timeStamp>
-            <textSummary>Monday March 21, 2022 at 22:58 UTC</textSummary>
+            <textSummary>21 mars 2022 22h58 UTC</textSummary>
         </dateTime>
-        <dateTime name="sunset" zone="EDT" UTCOffset="-4">
+        <dateTime name="sunset" zone="HAE" UTCOffset="-4">
             <year>2022</year>
-            <month name="March">03</month>
-            <day name="Monday">21</day>
+            <month name="mars">03</month>
+            <day name="lundi">21</day>
             <hour>18</hour>
             <minute>58</minute>
             <timeStamp>20220321185800</timeStamp>
-            <textSummary>Monday March 21, 2022 at 18:58 EDT</textSummary>
+            <textSummary>21 mars 2022 18h58 HAE</textSummary>
         </dateTime>
     </riseSet>
     <almanac>

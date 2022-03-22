@@ -55,10 +55,17 @@ public class WeatherXmlParser {
         public final String afterTmr;
         public final String afterTmrSummary;
         public final String afterTmrTemp;
+        public final String tmr3;
+        public final String tmrSummary3;
+        public final String tmrTemp3;
+        public final String tmr4;
+        public final String tmrSummary4;
+        public final String tmrTemp4;
 
         private Entry(String temperature, String currentCondition, String windSpeed,
                       String windDirection, String summary, String tmr, String tmrSummary, String tmrTemp,
-                      String afterTmr, String afterTmrSummary, String afterTmrTemp) {
+                      String afterTmr, String afterTmrSummary, String afterTmrTemp, String tmr3,
+                      String tmrSummary3, String tmrTemp3, String tmr4, String tmrSummary4, String tmrTemp4) {
             this.currentTemperature = temperature;
             this.currentCondition = currentCondition;
             this.windSpeed = windSpeed;
@@ -70,6 +77,12 @@ public class WeatherXmlParser {
             this.afterTmr = afterTmr;
             this.afterTmrSummary = afterTmrSummary;
             this.afterTmrTemp = afterTmrTemp;
+            this.tmr3 = tmr3;
+            this.tmrSummary3 = tmrSummary3;
+            this.tmrTemp3 = tmrTemp3;
+            this.tmr4 = tmr4;
+            this.tmrSummary4 = tmrSummary4;
+            this.tmrTemp4 = tmrTemp4;
         }
 
         public String toString() {
@@ -90,6 +103,12 @@ public class WeatherXmlParser {
         String afterTmr = null;
         String afterTmrSummary = null;
         String afterTmrTemp = null;
+        String tmr3 = null;
+        String tmrSummary3 = null;
+        String tmrTemp3 = null;
+        String tmr4 = null;
+        String tmrSummary4 = null;
+        String tmrTemp4 = null;
 
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
@@ -112,7 +131,7 @@ public class WeatherXmlParser {
                 summary = readSummary(parser);
 
                 findTag(parser, "forecast");
-                findTag(parser, "forecast");
+//                findTag(parser, "forecast");
                 findTag(parser, "period");
                 tmr = readTmr(parser);
                 findTag(parser, "textSummary");
@@ -128,11 +147,31 @@ public class WeatherXmlParser {
                 afterTmrSummary = readAfterTmrSummary(parser);
                 findTag(parser, "temperature");
                 afterTmrTemp = readAfterTmrTemp(parser);
+
+                findTag(parser, "forecast");
+                findTag(parser, "forecast");
+                findTag(parser, "period");
+                tmr3 = readTmr(parser);
+                findTag(parser, "textSummary");
+                tmrSummary3 = readAfterTmrSummary(parser);
+                findTag(parser, "temperature");
+                tmrTemp3 = readAfterTmrTemp(parser);
+
+                findTag(parser, "forecast");
+                findTag(parser, "forecast");
+                findTag(parser, "period");
+                tmr4 = readTmr(parser);
+                findTag(parser, "textSummary");
+                tmrSummary4 = readAfterTmrSummary(parser);
+                findTag(parser, "temperature");
+                tmrTemp4 = readAfterTmrTemp(parser);
             } else {
                 skip(parser);
             }
         }
-        return new Entry(temperature, currentCondition, windSpeed, windDirection, summary, tmr, tmrSummary, tmrTemp, afterTmr, afterTmrSummary, afterTmrTemp);
+        return new Entry(temperature, currentCondition, windSpeed, windDirection, summary, tmr,
+                tmrSummary, tmrTemp, afterTmr, afterTmrSummary, afterTmrTemp, tmr3, tmrSummary3,
+                tmrTemp3, tmr4, tmrSummary4, tmrTemp4);
     }
 
     private String readTemperature(XmlPullParser parser) throws IOException, XmlPullParserException {
