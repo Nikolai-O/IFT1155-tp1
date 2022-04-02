@@ -82,6 +82,19 @@ public class Provinces extends AppCompatActivity {
     }
 
     public void cities (View v) {
+        List villesQc = new ArrayList();
+        for (int i = 0; i < villes.size(); i++){
+            IdXmlParser.Entry ville = (IdXmlParser.Entry) villes.get(i);
+            if (ville.province.equals("QC")) {
+                villesQc.add(ville);
+            }
+        }
+        for (int i = 0; i< villesQc.size();i++) {
+            IdXmlParser.Entry ville = (IdXmlParser.Entry) villesQc.get(i);
+            Log.i("QcList", ville.nameFr);
+
+        }
+        Log.i("QcList", String.valueOf(villesQc.size()));
         IdXmlParser.Entry ids = (IdXmlParser.Entry) villes.get(0);
         IdXmlParser.Entry ids2 = (IdXmlParser.Entry) villes.get(854);
         Log.i("villes", "1");

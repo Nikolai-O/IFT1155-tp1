@@ -8,10 +8,11 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IdXmlParser {
+public class IdXmlParser implements Serializable {
     private static final String ns = null;
 
     public List parse(InputStream in) throws XmlPullParserException, IOException {
@@ -92,7 +93,7 @@ public class IdXmlParser {
                 nameEn = readNameEn(parser);
             else if (name.equals("nameFr"))
                 nameFr = readNameFr(parser);
-            else if (name.equals("province"))
+            else if (name.equals("provinceCode"))
                 province = readProvince(parser);
             else
                 skip(parser);
@@ -118,7 +119,7 @@ public class IdXmlParser {
     private String readProvince(XmlPullParser parser) throws XmlPullParserException, IOException {
         parser.require(XmlPullParser.START_TAG, ns, "provinceCode");
         String province = readText(parser);
-        parser.require(XmlPullParser.END_TAG, ns, "provinceCode");
+        //parser.require(XmlPullParser.END_TAG, ns, "provinceCode");
         return province;
     }
 
