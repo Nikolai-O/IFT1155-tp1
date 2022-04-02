@@ -19,12 +19,14 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xmlpull.v1.XmlPullParserException;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.StringReader;
+import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -36,20 +38,43 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class Provinces extends AppCompatActivity {
-    //static Handler messageHandler;
+     List villes;
     private StringBuffer text = null;
     static String text2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.provinces);
-        //openHttpConnection("https://dd.weather.gc.ca/citypage_weather/xml/siteList.xml");
-        downloadXML();
-        //Bundle bundle = messageHandler.obtainMessage(1).getData();
-        //String text = bundle.getString("text");
-        //Log.i("info2", text.toString());
-        //Log.i("info2", text2);
+        String[] files = this.fileList();
+        boolean exists = false;
+
+        for (int i = 0; i < files.length; i++) {
+            if (files[i] == "cities.xml");
+                exists = !exists;
+        }
+        if (exists) {
+//            Log.i("files", "cities.xml found");
+//            IdXmlParser parser = new IdXmlParser();
+//            InputStream is = null;
+//            try {
+//                is = openFileInput("cities.xml");
+//            } catch (FileNotFoundException e) {
+//                e.printStackTrace();
+//            }
+//            try {
+//                villes = parser.parse(is);
+//            } catch (XmlPullParserException e) {
+//                e.printStackTrace();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+            villes = getVilles("cities.xml");
+        } else {
+            Log.i("files", "cities.xml not found, downloading");
+            downloadXML();
+        }
     }
+
 
     public void back (View v) {
         Intent intent = new Intent(this, MainActivity.class);
@@ -57,8 +82,14 @@ public class Provinces extends AppCompatActivity {
     }
 
     public void cities (View v) {
-        Intent intent = new Intent(this, Cities.class);
-        startActivity(intent);
+        IdXmlParser.Entry ids = (IdXmlParser.Entry) villes.get(0);
+        IdXmlParser.Entry ids2 = (IdXmlParser.Entry) villes.get(854);
+        Log.i("villes", "1");
+        Log.i("villes", "Info: " + ids.code + " " + ids.nameEn  + " " + ids.nameFr  + " " + ids.province);
+        Log.i("villes", "2");
+        Log.i("villes", "Info: " + ids2.code + " " + ids2.nameEn  + " " + ids2.nameFr  + " " + ids2.province);
+       Intent intent = new Intent(this, Cities.class);
+       startActivity(intent);
     }
 
     private void downloadXML() {
@@ -82,7 +113,6 @@ public class Provinces extends AppCompatActivity {
                     inputBuffer = new char[BUFFER_SIZE];
 
                 }
-                //Log.i("Line", text.toString());
                 Bundle b = new Bundle();
                 b.putString("text", text.toString());
                 msg.setData(b);
@@ -91,8 +121,6 @@ public class Provinces extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-            //messageHandler = new CustomHandler(this);
         }).start();
     }
 
@@ -143,10 +171,10 @@ public class Provinces extends AppCompatActivity {
                 case 1:
                     Log.i("info2", "what what");
                     text2 = msg.getData().getString("text");
-                    Log.i("info2", text2);
+                    //Log.i("info2", text2);
                     Document doc = convertStringToXMLDocument(text2);
                     NodeList names = doc.getElementsByTagName("nameEn");
-
+                    //villes = getVilles("cities.xml");
                     try {
                         OutputStreamWriter out = new OutputStreamWriter(
                                 openFileOutput("cities.xml", 0));
@@ -166,22 +194,14 @@ public class Provinces extends AppCompatActivity {
                         e.printStackTrace();
                     }
                     try {
-                        List entries = parser.parse(is);
-                        IdXmlParser.Entry ids = (IdXmlParser.Entry) entries.get(0);
-                        IdXmlParser.Entry ids2 = (IdXmlParser.Entry) entries.get(854);
-                        Log.i("Ids", "1");
-                        Log.i("Ids", "Info: " + ids.code + " " + ids.nameEn  + " " + ids.nameFr  + " " + ids.province);
-                        Log.i("Ids2", "2");
-                        Log.i("Ids2", "Info: " + ids2.code + " " + ids2.nameEn  + " " + ids2.nameFr  + " " + ids2.province);
+                        //List entries = parser.parse(is);
+                        villes = parser.parse(is);
                     } catch (XmlPullParserException e) {
                         e.printStackTrace();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-
-                    Log.i("info2", String.valueOf(names.getLength()));
             }
-            //this.activity.simpleProgressBar.setVisibility(View.GONE);
 
         }
 
@@ -209,6 +229,24 @@ public class Provinces extends AppCompatActivity {
         return null;
     }
 
+    public List getVilles(String file) {
+        IdXmlParser parser = new IdXmlParser();
+        InputStream is = null;
+        List entries = null;
+        try {
+            is = openFileInput(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
+            entries = parser.parse(is);
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return entries;
+    }
 
     private final Handler messageHandler = new CustomHandler(this);
 }
