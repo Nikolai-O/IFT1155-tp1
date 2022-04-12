@@ -114,6 +114,7 @@ public class Provinces extends AppCompatActivity {
             str.append("</siteList>");
             Log.i("QcList", String.valueOf(str));
 
+
             Document doc = convertStringToXMLDocument(String.valueOf(str));
             NodeList names = doc.getElementsByTagName("nameEn");
             //villes = getVilles("cities.xml");
