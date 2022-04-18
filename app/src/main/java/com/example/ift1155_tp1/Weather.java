@@ -69,7 +69,7 @@ public class Weather extends AppCompatActivity {
         String tmrSummary4FR = ville.getStringExtra("tmrSummary4FR");
         String tmrTemp4FR = ville.getStringExtra("tmrTemp4FR");
 
-        if ( (getResources().getConfiguration().getLocales().get(0)).toString().contains("en")) {
+        if ( (getResources().getConfiguration().getLocales().get(0)).toString().contains("fr")) {
             currentTV.setText(temperature + currentTV.getText());
             currentCondition.setText(condition);
             windDirectionTV.setText(windDirection);
