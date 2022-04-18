@@ -31,6 +31,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -96,7 +99,7 @@ public class Provinces extends AppCompatActivity {
             }
 
             StringBuilder str = new StringBuilder();
-            str.append("<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n" +
+            str.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" +
                     "<siteList>");
             for (int i = 0; i < villesQc.size(); i++) {
                 IdXmlParser.Entry ville = (IdXmlParser.Entry) villesQc.get(i);
@@ -153,7 +156,8 @@ public class Provinces extends AppCompatActivity {
             msg.what = 1;
             try {
                 in = openHttpConnection(url);
-                InputStreamReader isr = new InputStreamReader(in);
+                InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
+
                 int charRead;
                 text = new StringBuffer();
                 char[] inputBuffer = new char[BUFFER_SIZE];
@@ -195,11 +199,10 @@ public class Provinces extends AppCompatActivity {
             httpConn.setInstanceFollowRedirects(true);
             httpConn.setRequestMethod("GET");
             Log.i("httpConnTest", String.valueOf(10));
-            httpConn.setConnectTimeout(5000);
             httpConn.connect();
-
             resCode = httpConn.getResponseCode();
             Log.i("httpConnTest", String.valueOf(resCode));
+
             if (resCode == HttpURLConnection.HTTP_OK) {
                 in = httpConn.getInputStream();
             }
@@ -224,15 +227,14 @@ public class Provinces extends AppCompatActivity {
             super.handleMessage(msg);
             switch (msg.what) {
                 case 1:
-                    Log.i("info2", "what what");
                     text2 = msg.getData().getString("text");
-                    //Log.i("info2", text2);
                     Document doc = convertStringToXMLDocument(text2);
                     NodeList names = doc.getElementsByTagName("nameEn");
                     //villes = getVilles("cities.xml");
                     try {
                         OutputStreamWriter out = new OutputStreamWriter(
-                                openFileOutput("cities.xml", 0));
+                                openFileOutput("cities.xml", 0 ), StandardCharsets.UTF_8);
+                        Log.i("encoding", out.getEncoding());
                         out.write(text2);
                         out.close();
                     } catch (FileNotFoundException e) {
@@ -272,9 +274,14 @@ public class Provinces extends AppCompatActivity {
         {
             //Create DocumentBuilder with default configuration
             builder = factory.newDocumentBuilder();
-
+//            byte[] frenchBytes = xmlString.getBytes();
+//            String xmlFrenchString = new String(frenchBytes, StandardCharsets.UTF_8);
+            ByteBuffer byteBuffer = StandardCharsets.UTF_8.encode(xmlString);
+            String text1 = new String(xmlString.getBytes(Charset.forName("UTF-8")), Charset.forName("UTF-8"));
             //Parse the content to Document object
-            Document doc = builder.parse(new InputSource(new StringReader(xmlString)));
+            Document doc = builder.parse(new InputSource(new StringReader(text1)));
+            //Log.i("encoding", doc.getXmlEncoding());
+            //Log.i("encoding", doc.getInputEncoding());
             return doc;
         }
         catch (Exception e)
