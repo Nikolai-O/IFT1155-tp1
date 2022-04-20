@@ -8,6 +8,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -50,6 +51,7 @@ public class Provinces extends AppCompatActivity {
         setContentView(R.layout.provinces);
         String[] files = this.fileList();
         boolean exists = false;
+
         File file = new File(this.getFilesDir(), "cities.xml");
         for (int i = 0; i < files.length; i++) {
             if (files[i] == "cities.xml");
@@ -85,65 +87,70 @@ public class Provinces extends AppCompatActivity {
     }
 
     public void cities (View v) {
-        File fileQc = new File(this.getFilesDir(), "qc.xml");
-        if (!fileQc.exists()) {
-            List villesQc = new ArrayList();
-            for (int i = 0; i < villes.size(); i++) {
-                IdXmlParser.Entry ville = (IdXmlParser.Entry) villes.get(i);
-                //Log.i("Qc", ville.province);
+        Button qcBtn = findViewById(R.id.qcButton);
+        if (v == qcBtn) {
+            File fileQc = new File(this.getFilesDir(), "qc.xml");
+            if (!fileQc.exists()) {
+                List villesQc = new ArrayList();
+                for (int i = 0; i < villes.size(); i++) {
+                    IdXmlParser.Entry ville = (IdXmlParser.Entry) villes.get(i);
+                    //Log.i("Qc", ville.province);
 
-                if (ville.province.equals("QC")) {
-                    //Log.i("Qc", String.valueOf(i));
-                    villesQc.add(ville);
+                    if (ville.province.equals("QC")) {
+                        //Log.i("Qc", String.valueOf(i));
+                        villesQc.add(ville);
+                    }
                 }
-            }
 
-            StringBuilder str = new StringBuilder();
-            str.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" +
-                    "<siteList>");
-            for (int i = 0; i < villesQc.size(); i++) {
-                IdXmlParser.Entry ville = (IdXmlParser.Entry) villesQc.get(i);
-                str.append("\n<site code=\"" + ville.code + "\">\n");
-                str.append("\t<nameEn>" + ville.nameEn + "</nameEn>\n");
-                str.append("\t<nameFr>" + ville.nameFr + "</nameFr>\n");
-                str.append("\t<provinceCode>" + ville.province + "</provinceCode>\n");
-                str.append("</site>");
+                StringBuilder str = new StringBuilder();
+                str.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" +
+                        "<siteList>");
+                for (int i = 0; i < villesQc.size(); i++) {
+                    IdXmlParser.Entry ville = (IdXmlParser.Entry) villesQc.get(i);
+                    str.append("\n<site code=\"" + ville.code + "\">\n");
+                    str.append("\t<nameEn>" + ville.nameEn + "</nameEn>\n");
+                    str.append("\t<nameFr>" + ville.nameFr + "</nameFr>\n");
+                    str.append("\t<provinceCode>" + ville.province + "</provinceCode>\n");
+                    str.append("</site>");
 //            Log.i("QcList", "<site code=\"" + ville.code + "\">\n");
 //            Log.i("QcList", "\t<nameEn>" + ville.nameEn + "</nameEn>\n");
 //            Log.i("QcList", "\t<nameFr>" + ville.nameFr + "</nameFr>\n");
 //            Log.i("QcList", "\t<provinceCode>" + ville.province + "</provinceCode>\n");
 //            Log.i("QcList", "</site>");
+                }
+                str.append("</siteList>");
+                Log.i("QcList", String.valueOf(str));
+
+
+                Document doc = convertStringToXMLDocument(String.valueOf(str));
+                NodeList names = doc.getElementsByTagName("nameEn");
+                //villes = getVilles("cities.xml");
+                try {
+                    OutputStreamWriter out = new OutputStreamWriter(
+                            openFileOutput("qc.xml", 0));
+                    out.write(String.valueOf(str));
+                    out.close();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                IdXmlParser.Entry ids = (IdXmlParser.Entry) villes.get(0);
+                IdXmlParser.Entry ids2 = (IdXmlParser.Entry) villes.get(854);
+                Log.i("villes", "1");
+                Log.i("villes", "Info: " + ids.code + " " + ids.nameEn + " " + ids.nameFr + " " + ids.province);
+                Log.i("villes", "2");
+                Log.i("villes", "Info: " + ids2.code + " " + ids2.nameEn + " " + ids2.nameFr + " " + ids2.province);
+                Intent intent = new Intent(this, Cities.class);
+                intent.putExtra("province", "Qc");
+                startActivity(intent);
+            } else {
+                Log.i("villes", "Found");
+                Intent intent = new Intent(this, Cities.class);
+                intent.putExtra("province", "Qc");
+                startActivity(intent);
             }
-            str.append("</siteList>");
-            Log.i("QcList", String.valueOf(str));
-
-
-            Document doc = convertStringToXMLDocument(String.valueOf(str));
-            NodeList names = doc.getElementsByTagName("nameEn");
-            //villes = getVilles("cities.xml");
-            try {
-                OutputStreamWriter out = new OutputStreamWriter(
-                        openFileOutput("qc.xml", 0));
-                out.write(String.valueOf(str));
-                out.close();
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            IdXmlParser.Entry ids = (IdXmlParser.Entry) villes.get(0);
-            IdXmlParser.Entry ids2 = (IdXmlParser.Entry) villes.get(854);
-            Log.i("villes", "1");
-            Log.i("villes", "Info: " + ids.code + " " + ids.nameEn + " " + ids.nameFr + " " + ids.province);
-            Log.i("villes", "2");
-            Log.i("villes", "Info: " + ids2.code + " " + ids2.nameEn + " " + ids2.nameFr + " " + ids2.province);
-            Intent intent = new Intent(this, Cities.class);
-            startActivity(intent);
-        } else {
-            Log.i("villes", "Found");
-            Intent intent = new Intent(this, Cities.class);
-            startActivity(intent);
         }
     }
 
@@ -259,7 +266,6 @@ public class Provinces extends AppCompatActivity {
                         e.printStackTrace();
                     }
             }
-
         }
 
     }

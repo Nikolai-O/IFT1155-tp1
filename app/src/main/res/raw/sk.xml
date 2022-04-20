@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Pelican Narrows</nameen>
+        <namefr>Pelican Narrows</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000067</code>
+        <lat>55.19</lat>
+        <long>102.93</long>
+    </ville>
+    <ville>
+        <nameen>Coronach</nameen>
+        <namefr>Coronach</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000081</code>
+        <lat>49.11</lat>
+        <long>105.51</long>
+    </ville>
+    <ville>
+        <nameen>Indian Head</nameen>
+        <namefr>Indian Head</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000086</code>
+        <lat>50.53</lat>
+        <long>103.67</long>
+    </ville>
+    <ville>
+        <nameen>Fort Qu'Appelle</nameen>
+        <namefr>Fort Qu'Appelle</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000087</code>
+        <lat>50.77</lat>
+        <long>103.79</long>
+    </ville>
+    <ville>
+        <nameen>Nipawin</nameen>
+        <namefr>Nipawin</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000095</code>
+        <lat>53.36</lat>
+        <long>104.02</long>
+    </ville>
+    <ville>
+        <nameen>Uranium City</nameen>
+        <namefr>Uranium City</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000113</code>
+        <lat>59.57</lat>
+        <long>108.61</long>
+    </ville>
+    <ville>
+        <nameen>Shaunavon</nameen>
+        <namefr>Shaunavon</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000133</code>
+        <lat>49.65</lat>
+        <long>108.42</long>
+    </ville>
+    <ville>
+        <nameen>Eastend</nameen>
+        <namefr>Eastend</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000134</code>
+        <lat>49.52</lat>
+        <long>108.82</long>
+    </ville>
+    <ville>
+        <nameen>Tisdale</nameen>
+        <namefr>Tisdale</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000157</code>
+        <lat>52.85</lat>
+        <long>104.05</long>
+    </ville>
+    <ville>
+        <nameen>Melfort</nameen>
+        <namefr>Melfort</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000158</code>
+        <lat>52.86</lat>
+        <long>104.61</long>
+    </ville>
+    <ville>
+        <nameen>Broadview</nameen>
+        <namefr>Broadview</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000192</code>
+        <lat>50.38</lat>
+        <long>102.58</long>
+    </ville>
+    <ville>
+        <nameen>Watrous</nameen>
+        <namefr>Watrous</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000195</code>
+        <lat>51.69</lat>
+        <long>105.46</long>
+    </ville>
+    <ville>
+        <nameen>Humboldt</nameen>
+        <namefr>Humboldt</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000196</code>
+        <lat>52.20</lat>
+        <long>105.12</long>
+    </ville>
+    <ville>
+        <nameen>Southend Reindeer</nameen>
+        <namefr>Southend Reindeer</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000208</code>
+        <lat>56.32</lat>
+        <long>103.27</long>
+    </ville>
+    <ville>
+        <nameen>Assiniboia</nameen>
+        <namefr>Assiniboia</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000209</code>
+        <lat>49.63</lat>
+        <long>105.99</long>
+    </ville>
+    <ville>
+        <nameen>Leader</nameen>
+        <namefr>Leader</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000219</code>
+        <lat>50.89</lat>
+        <long>109.55</long>
+    </ville>
+    <ville>
+        <nameen>Rockglen</nameen>
+        <namefr>Rockglen</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000225</code>
+        <lat>49.18</lat>
+        <long>105.95</long>
+    </ville>
+    <ville>
+        <nameen>Lucky Lake</nameen>
+        <namefr>Lucky Lake</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000230</code>
+        <lat>50.99</lat>
+        <long>107.13</long>
+    </ville>
+    <ville>
+        <nameen>Waskesiu Lake</nameen>
+        <namefr>Waskesiu Lake</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000241</code>
+        <lat>53.92</lat>
+        <long>106.08</long>
+    </ville>
+    <ville>
+        <nameen>Maple Creek</nameen>
+        <namefr>Maple Creek</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000248</code>
+        <lat>49.91</lat>
+        <long>109.48</long>
+    </ville>
+    <ville>
+        <nameen>Elbow</nameen>
+        <namefr>Elbow</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000274</code>
+        <lat>51.12</lat>
+        <long>106.60</long>
+    </ville>
+    <ville>
+        <nameen>Wynyard</nameen>
+        <namefr>Wynyard</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000278</code>
+        <lat>51.77</lat>
+        <long>104.18</long>
+    </ville>
+    <ville>
+        <nameen>Rosetown</nameen>
+        <namefr>Rosetown</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000300</code>
+        <lat>51.55</lat>
+        <long>107.99</long>
+    </ville>
+    <ville>
+        <nameen>Spiritwood</nameen>
+        <namefr>Spiritwood</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000330</code>
+        <lat>53.37</lat>
+        <long>107.52</long>
+    </ville>
+    <ville>
+        <nameen>Biggar</nameen>
+        <namefr>Biggar</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000343</code>
+        <lat>52.06</lat>
+        <long>107.98</long>
+    </ville>
+    <ville>
+        <nameen>Scott</nameen>
+        <namefr>Scott</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000344</code>
+        <lat>52.37</lat>
+        <long>108.83</long>
+    </ville>
+    <ville>
+        <nameen>Swift Current</nameen>
+        <namefr>Swift Current</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000355</code>
+        <lat>50.29</lat>
+        <long>107.79</long>
+    </ville>
+    <ville>
+        <nameen>Val Marie</nameen>
+        <namefr>Val Marie</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000357</code>
+        <lat>49.25</lat>
+        <long>107.73</long>
+    </ville>
+    <ville>
+        <nameen>Cypress Hills (Provincial Park)</nameen>
+        <namefr>Cypress Hills (Parc provincial)</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000360</code>
+        <lat>49.63</lat>
+        <long>109.75</long>
+    </ville>
+    <ville>
+        <nameen>Collins Bay</nameen>
+        <namefr>Collins Bay</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000369</code>
+        <lat>58.28</lat>
+        <long>103.63</long>
+    </ville>
+    <ville>
+        <nameen>Weyburn</nameen>
+        <namefr>Weyburn</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000372</code>
+        <lat>49.66</lat>
+        <long>103.85</long>
+    </ville>
+    <ville>
+        <nameen>Last Mountain Lake (Sanctuary)</nameen>
+        <namefr>Last Mountain Lake (Sanctuaire)</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000381</code>
+        <lat>51.37</lat>
+        <long>105.23</long>
+    </ville>
+    <ville>
+        <nameen>Outlook</nameen>
+        <namefr>Outlook</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000387</code>
+        <lat>51.49</lat>
+        <long>107.05</long>
+    </ville>
+    <ville>
+        <nameen>Oxbow</nameen>
+        <namefr>Oxbow</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000514</code>
+        <lat>49.23</lat>
+        <long>102.17</long>
+    </ville>
+    <ville>
+        <nameen>Carlyle</nameen>
+        <namefr>Carlyle</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000515</code>
+        <lat>49.64</lat>
+        <long>102.27</long>
+    </ville>
+    <ville>
+        <nameen>Estevan</nameen>
+        <namefr>Estevan</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000516</code>
+        <lat>49.14</lat>
+        <long>102.99</long>
+    </ville>
+    <ville>
+        <nameen>Hudson Bay</nameen>
+        <namefr>Hudson Bay</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000545</code>
+        <lat>52.84</lat>
+        <long>102.38</long>
+    </ville>
+    <ville>
+        <nameen>Key Lake</nameen>
+        <namefr>Key Lake</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000576</code>
+        <lat>57.22</lat>
+        <long>105.63</long>
+    </ville>
+    <ville>
+        <nameen>Kindersley</nameen>
+        <namefr>Kindersley</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000581</code>
+        <lat>51.47</lat>
+        <long>109.16</long>
+    </ville>
+    <ville>
+        <nameen>Meadow Lake</nameen>
+        <namefr>Meadow Lake</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000589</code>
+        <lat>54.12</lat>
+        <long>108.44</long>
+    </ville>
+    <ville>
+        <nameen>Prince Albert</nameen>
+        <namefr>Prince Albert</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000624</code>
+        <lat>53.22</lat>
+        <long>105.71</long>
+    </ville>
+    <ville>
+        <nameen>Canora</nameen>
+        <namefr>Canora</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000662</code>
+        <lat>51.64</lat>
+        <long>102.43</long>
+    </ville>
+    <ville>
+        <nameen>Yorkton</nameen>
+        <namefr>Yorkton</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000663</code>
+        <lat>51.21</lat>
+        <long>102.46</long>
+    </ville>
+    <ville>
+        <nameen>Kamsack</nameen>
+        <namefr>Kamsack</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000664</code>
+        <lat>51.56</lat>
+        <long>101.90</long>
+    </ville>
+    <ville>
+        <nameen>Melville</nameen>
+        <namefr>Melville</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000665</code>
+        <lat>50.93</lat>
+        <long>102.81</long>
+    </ville>
+    <ville>
+        <nameen>North Battleford</nameen>
+        <namefr>North Battleford</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000666</code>
+        <lat>52.76</lat>
+        <long>108.29</long>
+    </ville>
+    <ville>
+        <nameen>Stony Rapids</nameen>
+        <namefr>Stony Rapids</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000684</code>
+        <lat>59.25</lat>
+        <long>105.84</long>
+    </ville>
+    <ville>
+        <nameen>La Ronge</nameen>
+        <namefr>La Ronge</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000715</code>
+        <lat>55.12</lat>
+        <long>105.29</long>
+    </ville>
+    <ville>
+        <nameen>La Loche</nameen>
+        <namefr>La Loche</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000722</code>
+        <lat>56.49</lat>
+        <long>109.40</long>
+    </ville>
+    <ville>
+        <nameen>Buffalo Narrows</nameen>
+        <namefr>Buffalo Narrows</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000723</code>
+        <lat>55.88</lat>
+        <long>108.52</long>
+    </ville>
+    <ville>
+        <nameen>Moosomin</nameen>
+        <namefr>Moosomin</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000733</code>
+        <lat>50.14</lat>
+        <long>101.67</long>
+    </ville>
+    <ville>
+        <nameen>Rosthern</nameen>
+        <namefr>Rosthern</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000743</code>
+        <lat>52.66</lat>
+        <long>106.33</long>
+    </ville>
+    <ville>
+        <nameen>Regina</nameen>
+        <namefr>Regina</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000788</code>
+        <lat>50.45</lat>
+        <long>104.61</long>
+    </ville>
+    <ville>
+        <nameen>Saskatoon</nameen>
+        <namefr>Saskatoon</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000797</code>
+        <lat>52.14</lat>
+        <long>106.69</long>
+    </ville>
+    <ville>
+        <nameen>Moose Jaw</nameen>
+        <namefr>Moose Jaw</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000822</code>
+        <lat>50.39</lat>
+        <long>105.55</long>
+    </ville>
+    <ville>
+        <nameen>Lloydminster</nameen>
+        <namefr>Lloydminster</namefr>
+        <provincecode>SK</provincecode>
+        <code>s0000835</code>
+        <lat>53.28</lat>
+        <long>109.98</long>
+    </ville>
+</villes>

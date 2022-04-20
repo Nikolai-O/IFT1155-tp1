@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Kugaaruk</nameen>
+        <namefr>Kugaaruk</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000065</code>
+        <lat>68.53</lat>
+        <long>89.83</long>
+    </ville>
+    <ville>
+        <nameen>Eureka</nameen>
+        <namefr>Eureka</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000140</code>
+        <lat>79.98</lat>
+        <long>85.95</long>
+    </ville>
+    <ville>
+        <nameen>Grise Fiord</nameen>
+        <namefr>Grise Fiord</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000177</code>
+        <lat>76.42</lat>
+        <long>82.90</long>
+    </ville>
+    <ville>
+        <nameen>Ennadai</nameen>
+        <namefr>Ennadai</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000206</code>
+        <lat>61.13</lat>
+        <long>100.88</long>
+    </ville>
+    <ville>
+        <nameen>Iqaluit</nameen>
+        <namefr>Iqaluit</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000394</code>
+        <lat>63.75</lat>
+        <long>68.52</long>
+    </ville>
+    <ville>
+        <nameen>Arctic Bay</nameen>
+        <namefr>Arctic Bay</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000412</code>
+        <lat>73.03</lat>
+        <long>85.17</long>
+    </ville>
+    <ville>
+        <nameen>Baker Lake</nameen>
+        <namefr>Baker Lake</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000487</code>
+        <lat>64.32</lat>
+        <long>96.02</long>
+    </ville>
+    <ville>
+        <nameen>Cambridge Bay</nameen>
+        <namefr>Cambridge Bay</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000495</code>
+        <lat>69.11</lat>
+        <long>105.05</long>
+    </ville>
+    <ville>
+        <nameen>Kugluktuk</nameen>
+        <namefr>Kugluktuk</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000498</code>
+        <lat>67.83</lat>
+        <long>115.09</long>
+    </ville>
+    <ville>
+        <nameen>Chesterfield</nameen>
+        <namefr>Chesterfield</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000501</code>
+        <lat>63.34</lat>
+        <long>90.70</long>
+    </ville>
+    <ville>
+        <nameen>Clyde River</nameen>
+        <namefr>Clyde River</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000504</code>
+        <lat>70.47</lat>
+        <long>68.59</long>
+    </ville>
+    <ville>
+        <nameen>Arviat</nameen>
+        <namefr>Arviat</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000511</code>
+        <lat>61.11</lat>
+        <long>94.06</long>
+    </ville>
+    <ville>
+        <nameen>Igloolik</nameen>
+        <namefr>Igloolik</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000540</code>
+        <lat>69.38</lat>
+        <long>81.80</long>
+    </ville>
+    <ville>
+        <nameen>Pond Inlet</nameen>
+        <namefr>Pond Inlet</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000564</code>
+        <lat>72.70</lat>
+        <long>77.96</long>
+    </ville>
+    <ville>
+        <nameen>Kimmirut</nameen>
+        <namefr>Kimmirut</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000587</code>
+        <lat>62.85</lat>
+        <long>69.87</long>
+    </ville>
+    <ville>
+        <nameen>Resolute</nameen>
+        <namefr>Resolute</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000672</code>
+        <lat>74.70</lat>
+        <long>94.83</long>
+    </ville>
+    <ville>
+        <nameen>Rankin Inlet</nameen>
+        <namefr>Rankin Inlet</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000678</code>
+        <lat>62.82</lat>
+        <long>92.08</long>
+    </ville>
+    <ville>
+        <nameen>Sanikiluaq</nameen>
+        <namefr>Sanikiluaq</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000689</code>
+        <lat>56.53</lat>
+        <long>79.23</long>
+    </ville>
+    <ville>
+        <nameen>Nanisivik</nameen>
+        <namefr>Nanisivik</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000693</code>
+        <lat>73.03</lat>
+        <long>84.55</long>
+    </ville>
+    <ville>
+        <nameen>Kinngait</nameen>
+        <namefr>Kinngait</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000694</code>
+        <lat>64.23</lat>
+        <long>76.54</long>
+    </ville>
+    <ville>
+        <nameen>Naujaat</nameen>
+        <namefr>Naujaat</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000713</code>
+        <lat>66.53</lat>
+        <long>86.25</long>
+    </ville>
+    <ville>
+        <nameen>Sanirajak</nameen>
+        <namefr>Sanirajak</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000714</code>
+        <lat>68.79</lat>
+        <long>81.24</long>
+    </ville>
+    <ville>
+        <nameen>Qikiqtarjuaq</nameen>
+        <namefr>Qikiqtarjuaqq</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000716</code>
+        <lat>67.55</lat>
+        <long>64.03</long>
+    </ville>
+    <ville>
+        <nameen>Whale Cove</nameen>
+        <namefr>Whale Cove</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000749</code>
+        <lat>62.16</lat>
+        <long>92.57</long>
+    </ville>
+    <ville>
+        <nameen>Pangnirtung</nameen>
+        <namefr>Pangnirtung</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000750</code>
+        <lat>66.14</lat>
+        <long>65.72</long>
+    </ville>
+    <ville>
+        <nameen>Taloyoak</nameen>
+        <namefr>Taloyoak</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000774</code>
+        <lat>69.54</lat>
+        <long>93.52</long>
+    </ville>
+    <ville>
+        <nameen>Coral Harbour</nameen>
+        <namefr>Coral Harbour</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000798</code>
+        <lat>64.13</lat>
+        <long>83.17</long>
+    </ville>
+    <ville>
+        <nameen>Gjoa Haven</nameen>
+        <namefr>Gjoa Haven</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000820</code>
+        <lat>68.63</lat>
+        <long>95.88</long>
+    </ville>
+    <ville>
+        <nameen>Alert</nameen>
+        <namefr>Alert</namefr>
+        <provincecode>NU</provincecode>
+        <code>s0000821</code>
+        <lat>82.50</lat>
+        <long>62.37</long>
+    </ville>
+</villes>

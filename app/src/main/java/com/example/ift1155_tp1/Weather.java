@@ -1,5 +1,6 @@
 package com.example.ift1155_tp1;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Weather extends AppCompatActivity {
+    String nomProvince;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,7 @@ public class Weather extends AppCompatActivity {
         TextView afterTmrTempTV = findViewById(R.id.afterTmrTempTV);
 
         Intent ville = getIntent();
+        nomProvince = ville.getStringExtra("Province");
         String temperature = ville.getStringExtra("currentTemperature");
         String condition = ville.getStringExtra("currentCondition");
         String windSpeed = ville.getStringExtra("windSpeed");
@@ -130,6 +133,7 @@ public class Weather extends AppCompatActivity {
 
     public void back (View v) {
         Intent intent = new Intent(this, Cities.class);
+        intent.putExtra("Province", nomProvince);
         startActivity(intent);
     }
 
@@ -137,5 +141,11 @@ public class Weather extends AppCompatActivity {
         return (context.getResources().getConfiguration().screenLayout
                 & Configuration.SCREENLAYOUT_SIZE_MASK)
                 >= Configuration.SCREENLAYOUT_SIZE_LARGE;
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent();
+        intent.putExtra("Province", nomProvince);
+        super.onBackPressed();
     }
 }

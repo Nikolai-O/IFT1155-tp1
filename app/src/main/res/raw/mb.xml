@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Little Grand Rapids</nameen>
+        <namefr>Little Grand Rapids</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000010</code>
+        <lat>52.04</lat>
+        <long>95.46</long>
+    </ville>
+    <ville>
+        <nameen>Oxford House</nameen>
+        <namefr>Oxford House</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000011</code>
+        <lat>54.95</lat>
+        <long>95.27</long>
+    </ville>
+    <ville>
+        <nameen>Bissett</nameen>
+        <namefr>Bissett</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000012</code>
+        <lat>51.03</lat>
+        <long>95.68</long>
+    </ville>
+    <ville>
+        <nameen>Shamattawa</nameen>
+        <namefr>Shamattawa</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000013</code>
+        <lat>55.85</lat>
+        <long>92.09</long>
+    </ville>
+    <ville>
+        <nameen>York Factory</nameen>
+        <namefr>York Factory</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000014</code>
+        <lat>57.00</lat>
+        <long>92.31</long>
+    </ville>
+    <ville>
+        <nameen>Flin Flon</nameen>
+        <namefr>Flin Flon</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000015</code>
+        <lat>54.77</lat>
+        <long>101.86</long>
+    </ville>
+    <ville>
+        <nameen>Bachelors Island</nameen>
+        <namefr>Bachelors Island</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000091</code>
+        <lat>51.75</lat>
+        <long>99.90</long>
+    </ville>
+    <ville>
+        <nameen>Bloodvein</nameen>
+        <namefr>Bloodvein</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000101</code>
+        <lat>51.79</lat>
+        <long>96.71</long>
+    </ville>
+    <ville>
+        <nameen>Berens River</nameen>
+        <namefr>Berens River</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000102</code>
+        <lat>52.37</lat>
+        <long>97.03</long>
+    </ville>
+    <ville>
+        <nameen>Pinawa</nameen>
+        <namefr>Pinawa</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000130</code>
+        <lat>50.15</lat>
+        <long>95.88</long>
+    </ville>
+    <ville>
+        <nameen>Whiteshell</nameen>
+        <namefr>Whiteshell</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000131</code>
+        <lat>49.74</lat>
+        <long>95.20</long>
+    </ville>
+    <ville>
+        <nameen>Virden</nameen>
+        <namefr>Virden</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000135</code>
+        <lat>49.85</lat>
+        <long>100.93</long>
+    </ville>
+    <ville>
+        <nameen>Melita</nameen>
+        <namefr>Melita</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000136</code>
+        <lat>49.27</lat>
+        <long>101.00</long>
+    </ville>
+    <ville>
+        <nameen>Turtle Mountain (Provincial Park)</nameen>
+        <namefr>Turtle Mountain (Parc provincial)</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000137</code>
+        <lat>49.05</lat>
+        <long>100.25</long>
+    </ville>
+    <ville>
+        <nameen>Swan River</nameen>
+        <namefr>Swan River</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000139</code>
+        <lat>52.11</lat>
+        <long>101.27</long>
+    </ville>
+    <ville>
+        <nameen>Morris</nameen>
+        <namefr>Morris</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000150</code>
+        <lat>49.36</lat>
+        <long>97.37</long>
+    </ville>
+    <ville>
+        <nameen>Steinbach</nameen>
+        <namefr>Steinbach</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000151</code>
+        <lat>49.53</lat>
+        <long>96.68</long>
+    </ville>
+    <ville>
+        <nameen>Dominion City</nameen>
+        <namefr>Dominion City</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000152</code>
+        <lat>49.14</lat>
+        <long>97.16</long>
+    </ville>
+    <ville>
+        <nameen>Emerson</nameen>
+        <namefr>Emerson</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000153</code>
+        <lat>49.01</lat>
+        <long>97.21</long>
+    </ville>
+    <ville>
+        <nameen>Vita</nameen>
+        <namefr>Vita</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000154</code>
+        <lat>49.13</lat>
+        <long>96.56</long>
+    </ville>
+    <ville>
+        <nameen>Snow Lake</nameen>
+        <namefr>Snow Lake</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000160</code>
+        <lat>54.88</lat>
+        <long>100.04</long>
+    </ville>
+    <ville>
+        <nameen>Pukatawagan</nameen>
+        <namefr>Pukatawagan</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000161</code>
+        <lat>55.74</lat>
+        <long>101.32</long>
+    </ville>
+    <ville>
+        <nameen>Altona</nameen>
+        <namefr>Altona</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000171</code>
+        <lat>49.10</lat>
+        <long>97.56</long>
+    </ville>
+    <ville>
+        <nameen>Gretna</nameen>
+        <namefr>Gretna</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000172</code>
+        <lat>49.01</lat>
+        <long>97.56</long>
+    </ville>
+    <ville>
+        <nameen>Hunters Point</nameen>
+        <namefr>Hunters Point</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000178</code>
+        <lat>53.03</lat>
+        <long>100.94</long>
+    </ville>
+    <ville>
+        <nameen>Pine Falls</nameen>
+        <namefr>Pine Falls</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000189</code>
+        <lat>50.57</lat>
+        <long>96.22</long>
+    </ville>
+    <ville>
+        <nameen>Victoria Beach</nameen>
+        <namefr>Victoria Beach</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000190</code>
+        <lat>50.70</lat>
+        <long>96.56</long>
+    </ville>
+    <ville>
+        <nameen>Grand Beach</nameen>
+        <namefr>Grand Beach</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000191</code>
+        <lat>50.55</lat>
+        <long>96.63</long>
+    </ville>
+    <ville>
+        <nameen>Winnipeg</nameen>
+        <namefr>Winnipeg</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000193</code>
+        <lat>49.88</lat>
+        <long>97.15</long>
+    </ville>
+    <ville>
+        <nameen>Grand Rapids</nameen>
+        <namefr>Grand Rapids</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000207</code>
+        <lat>53.18</lat>
+        <long>99.26</long>
+    </ville>
+    <ville>
+        <nameen>Deerwood</nameen>
+        <namefr>Deerwood</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000256</code>
+        <lat>49.40</lat>
+        <long>98.39</long>
+    </ville>
+    <ville>
+        <nameen>Carman</nameen>
+        <namefr>Carman</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000257</code>
+        <lat>49.50</lat>
+        <long>98.00</long>
+    </ville>
+    <ville>
+        <nameen>Oak Point</nameen>
+        <namefr>Oak Point</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000273</code>
+        <lat>50.51</lat>
+        <long>98.03</long>
+    </ville>
+    <ville>
+        <nameen>McCreary</nameen>
+        <namefr>McCreary</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000276</code>
+        <lat>50.77</lat>
+        <long>99.49</long>
+    </ville>
+    <ville>
+        <nameen>Pilot Mound</nameen>
+        <namefr>Pilot Mound</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000289</code>
+        <lat>49.20</lat>
+        <long>98.89</long>
+    </ville>
+    <ville>
+        <nameen>Sprague</nameen>
+        <namefr>Sprague</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000337</code>
+        <lat>49.04</lat>
+        <long>95.64</long>
+    </ville>
+    <ville>
+        <nameen>Fisher Branch</nameen>
+        <namefr>Fisher Branch</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000339</code>
+        <lat>51.08</lat>
+        <long>97.62</long>
+    </ville>
+    <ville>
+        <nameen>Shoal Lake</nameen>
+        <namefr>Shoal Lake</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000352</code>
+        <lat>50.44</lat>
+        <long>100.59</long>
+    </ville>
+    <ville>
+        <nameen>Wasagaming</nameen>
+        <namefr>Wasagaming</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000375</code>
+        <lat>50.66</lat>
+        <long>99.97</long>
+    </ville>
+    <ville>
+        <nameen>Poplar River</nameen>
+        <namefr>Poplar River</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000378</code>
+        <lat>52.99</lat>
+        <long>97.28</long>
+    </ville>
+    <ville>
+        <nameen>Roblin</nameen>
+        <namefr>Roblin</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000380</code>
+        <lat>51.23</lat>
+        <long>101.36</long>
+    </ville>
+    <ville>
+        <nameen>Carberry</nameen>
+        <namefr>Carberry</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000401</code>
+        <lat>49.87</lat>
+        <long>99.36</long>
+    </ville>
+    <ville>
+        <nameen>Shilo</nameen>
+        <namefr>Shilo</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000402</code>
+        <lat>49.81</lat>
+        <long>99.64</long>
+    </ville>
+    <ville>
+        <nameen>Tadoule Lake</nameen>
+        <namefr>Tadoule Lake</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000417</code>
+        <lat>58.71</lat>
+        <long>98.48</long>
+    </ville>
+    <ville>
+        <nameen>Morden</nameen>
+        <namefr>Morden</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000444</code>
+        <lat>49.19</lat>
+        <long>98.10</long>
+    </ville>
+    <ville>
+        <nameen>Winkler</nameen>
+        <namefr>Winkler</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000445</code>
+        <lat>49.18</lat>
+        <long>97.94</long>
+    </ville>
+    <ville>
+        <nameen>Winnipeg (The Forks)</nameen>
+        <namefr>Winnipeg (La Fourche)</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000472</code>
+        <lat>49.89</lat>
+        <long>97.13</long>
+    </ville>
+    <ville>
+        <nameen>Minnedosa</nameen>
+        <namefr>Minnedosa</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000490</code>
+        <lat>50.25</lat>
+        <long>99.84</long>
+    </ville>
+    <ville>
+        <nameen>Souris</nameen>
+        <namefr>Souris</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000491</code>
+        <lat>49.62</lat>
+        <long>100.26</long>
+    </ville>
+    <ville>
+        <nameen>Brandon</nameen>
+        <namefr>Brandon</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000492</code>
+        <lat>49.85</lat>
+        <long>99.95</long>
+    </ville>
+    <ville>
+        <nameen>Dauphin</nameen>
+        <namefr>Dauphin</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000508</code>
+        <lat>51.15</lat>
+        <long>100.05</long>
+    </ville>
+    <ville>
+        <nameen>Arnes</nameen>
+        <namefr>Arnes</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000533</code>
+        <lat>50.80</lat>
+        <long>96.99</long>
+    </ville>
+    <ville>
+        <nameen>Gimli</nameen>
+        <namefr>Gimli</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000534</code>
+        <lat>50.63</lat>
+        <long>96.99</long>
+    </ville>
+    <ville>
+        <nameen>Gillam</nameen>
+        <namefr>Gillam</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000543</code>
+        <lat>56.35</lat>
+        <long>94.71</long>
+    </ville>
+    <ville>
+        <nameen>Island Lake</nameen>
+        <namefr>Island Lake</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000565</code>
+        <lat>53.86</lat>
+        <long>94.67</long>
+    </ville>
+    <ville>
+        <nameen>Gods Lake</nameen>
+        <namefr>Gods Lake</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000566</code>
+        <lat>54.67</lat>
+        <long>94.25</long>
+    </ville>
+    <ville>
+        <nameen>Norway House</nameen>
+        <namefr>Norway House</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000616</code>
+        <lat>53.99</lat>
+        <long>97.82</long>
+    </ville>
+    <ville>
+        <nameen>Portage la Prairie</nameen>
+        <namefr>Portage la Prairie</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000626</code>
+        <lat>49.97</lat>
+        <long>98.29</long>
+    </ville>
+    <ville>
+        <nameen>The Pas</nameen>
+        <namefr>The Pas</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000644</code>
+        <lat>53.83</lat>
+        <long>101.25</long>
+    </ville>
+    <ville>
+        <nameen>Thompson</nameen>
+        <namefr>Thompson</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000695</code>
+        <lat>55.74</lat>
+        <long>97.86</long>
+    </ville>
+    <ville>
+        <nameen>Richer</nameen>
+        <namefr>Richer</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000734</code>
+        <lat>49.66</lat>
+        <long>96.46</long>
+    </ville>
+    <ville>
+        <nameen>Leaf Rapids</nameen>
+        <namefr>Leaf Rapids</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000776</code>
+        <lat>56.47</lat>
+        <long>99.75</long>
+    </ville>
+    <ville>
+        <nameen>Lynn Lake</nameen>
+        <namefr>Lynn Lake</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000777</code>
+        <lat>56.83</lat>
+        <long>101.08</long>
+    </ville>
+    <ville>
+        <nameen>Brochet</nameen>
+        <namefr>Brochet</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000778</code>
+        <lat>57.88</lat>
+        <long>101.67</long>
+    </ville>
+    <ville>
+        <nameen>Churchill</nameen>
+        <namefr>Churchill</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000779</code>
+        <lat>58.73</lat>
+        <long>94.12</long>
+    </ville>
+    <ville>
+        <nameen>Delta</nameen>
+        <namefr>Delta</namefr>
+        <provincecode>MB</provincecode>
+        <code>s0000831</code>
+        <lat>50.19</lat>
+        <long>98.32</long>
+    </ville>
+</villes>

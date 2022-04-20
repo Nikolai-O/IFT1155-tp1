@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Maple Plains</nameen>
+        <namefr>Maple Plains</namefr>
+        <provincecode>PE</provincecode>
+        <code>s0000026</code>
+        <lat>46.28</lat>
+        <long>63.57</long>
+    </ville>
+    <ville>
+        <nameen>East Point</nameen>
+        <namefr>East Point</namefr>
+        <provincecode>PE</provincecode>
+        <code>s0000138</code>
+        <lat>46.45</lat>
+        <long>62.00</long>
+    </ville>
+    <ville>
+        <nameen>North Cape</nameen>
+        <namefr>North Cape</namefr>
+        <provincecode>PE</provincecode>
+        <code>s0000252</code>
+        <lat>47.07</lat>
+        <long>64.00</long>
+    </ville>
+    <ville>
+        <nameen>Summerside</nameen>
+        <namefr>Summerside</namefr>
+        <provincecode>PE</provincecode>
+        <code>s0000562</code>
+        <lat>46.40</lat>
+        <long>63.79</long>
+    </ville>
+    <ville>
+        <nameen>Charlottetown</nameen>
+        <namefr>Charlottetown</namefr>
+        <provincecode>PE</provincecode>
+        <code>s0000583</code>
+        <lat>46.24</lat>
+        <long>63.13</long>
+    </ville>
+    <ville>
+        <nameen>St. Peters Bay</nameen>
+        <namefr>St. Peters Bay</namefr>
+        <provincecode>PE</provincecode>
+        <code>s0000827</code>
+        <lat>46.42</lat>
+        <long>62.58</long>
+    </ville>
+</villes>

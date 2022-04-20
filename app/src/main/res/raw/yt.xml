@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Rancheria</nameen>
+        <namefr>Rancheria</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000030</code>
+        <lat>60.09</lat>
+        <long>130.60</long>
+    </ville>
+    <ville>
+        <nameen>Dempster (Highway)</nameen>
+        <namefr>Dempster (Route)</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000031</code>
+        <lat>66.16</lat>
+        <long>137.15</long>
+    </ville>
+    <ville>
+        <nameen>Haines Junction</nameen>
+        <namefr>Haines Junction</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000183</code>
+        <lat>60.75</lat>
+        <long>137.51</long>
+    </ville>
+    <ville>
+        <nameen>Dawson</nameen>
+        <namefr>Dawson</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000275</code>
+        <lat>66.98</lat>
+        <long>139.43</long>
+    </ville>
+    <ville>
+        <nameen>Rock River</nameen>
+        <namefr>Rock River</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000309</code>
+        <lat>66.98</lat>
+        <long>136.22</long>
+    </ville>
+    <ville>
+        <nameen>Faro</nameen>
+        <namefr>Faro</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000349</code>
+        <lat>62.23</lat>
+        <long>133.36</long>
+    </ville>
+    <ville>
+        <nameen>Ross River</nameen>
+        <namefr>Ross River</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000350</code>
+        <lat>61.98</lat>
+        <long>132.43</long>
+    </ville>
+    <ville>
+        <nameen>Teslin</nameen>
+        <namefr>Teslin</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000410</code>
+        <lat>60.17</lat>
+        <long>132.72</long>
+    </ville>
+    <ville>
+        <nameen>Carmacks</nameen>
+        <namefr>Carmacks</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000421</code>
+        <lat>62.09</lat>
+        <long>136.30</long>
+    </ville>
+    <ville>
+        <nameen>Kluane Lake</nameen>
+        <namefr>Lac Kluane</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000505</code>
+        <lat>61.26</lat>
+        <long>138.77</long>
+    </ville>
+    <ville>
+        <nameen>Burwash Landing</nameen>
+        <namefr>Burwash Landing</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000506</code>
+        <lat>61.36</lat>
+        <long>138.99</long>
+    </ville>
+    <ville>
+        <nameen>Mayo</nameen>
+        <namefr>Mayo</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000593</code>
+        <lat>63.59</lat>
+        <long>135.90</long>
+    </ville>
+    <ville>
+        <nameen>Watson Lake</nameen>
+        <namefr>Watson Lake</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000648</code>
+        <lat>60.06</lat>
+        <long>128.70</long>
+    </ville>
+    <ville>
+        <nameen>Beaver Creek</nameen>
+        <namefr>Beaver Creek</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000751</code>
+        <lat>62.38</lat>
+        <long>140.88</long>
+    </ville>
+    <ville>
+        <nameen>Carcross</nameen>
+        <namefr>Carcross</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000760</code>
+        <lat>60.17</lat>
+        <long>134.71</long>
+    </ville>
+    <ville>
+        <nameen>Old Crow</nameen>
+        <namefr>Old Crow</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000823</code>
+        <lat>67.57</lat>
+        <long>139.84</long>
+    </ville>
+    <ville>
+        <nameen>Whitehorse</nameen>
+        <namefr>Whitehorse</namefr>
+        <provincecode>YT</provincecode>
+        <code>s0000825</code>
+        <lat>60.70</lat>
+        <long>135.08</long>
+    </ville>
+</villes>

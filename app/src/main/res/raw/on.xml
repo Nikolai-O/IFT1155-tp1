@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Marathon</nameen>
+        <namefr>Marathon</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000022</code>
+        <lat>48.72</lat>
+        <long>86.38</long>
+    </ville>
+    <ville>
+        <nameen>Terrace Bay</nameen>
+        <namefr>Terrace Bay</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000023</code>
+        <lat>48.80</lat>
+        <long>87.10</long>
+    </ville>
+    <ville>
+        <nameen>Attawapiskat</nameen>
+        <namefr>Attawapiskat</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000024</code>
+        <lat>52.92</lat>
+        <long>82.43</long>
+    </ville>
+    <ville>
+        <nameen>Gogama</nameen>
+        <namefr>Gogama</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000025</code>
+        <lat>47.67</lat>
+        <long>81.73</long>
+    </ville>
+    <ville>
+        <nameen>Hawkesbury</nameen>
+        <namefr>Hawkesbury</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000069</code>
+        <lat>45.61</lat>
+        <long>74.60</long>
+    </ville>
+    <ville>
+        <nameen>Alexandria</nameen>
+        <namefr>Alexandria</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000070</code>
+        <lat>45.31</lat>
+        <long>74.63</long>
+    </ville>
+    <ville>
+        <nameen>Cornwall</nameen>
+        <namefr>Cornwall</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000071</code>
+        <lat>45.03</lat>
+        <long>74.73</long>
+    </ville>
+    <ville>
+        <nameen>Morrisburg</nameen>
+        <namefr>Morrisburg</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000072</code>
+        <lat>44.90</lat>
+        <long>75.18</long>
+    </ville>
+    <ville>
+        <nameen>Algonquin Park (Brent)</nameen>
+        <namefr>Parc Algonquin (Brent)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000073</code>
+        <lat>46.03</lat>
+        <long>78.48</long>
+    </ville>
+    <ville>
+        <nameen>Algonquin Park (Lake of Two Rivers)</nameen>
+        <namefr>Parc Algonquin (Lake of Two Rivers)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000074</code>
+        <lat>45.58</lat>
+        <long>78.48</long>
+    </ville>
+    <ville>
+        <nameen>Oxtongue Lake</nameen>
+        <namefr>Oxtongue Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000075</code>
+        <lat>45.36</lat>
+        <long>78.92</long>
+    </ville>
+    <ville>
+        <nameen>Welland</nameen>
+        <namefr>Welland</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000076</code>
+        <lat>43.00</lat>
+        <long>79.23</long>
+    </ville>
+    <ville>
+        <nameen>Winchester</nameen>
+        <namefr>Winchester</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000077</code>
+        <lat>45.09</lat>
+        <long>75.35</long>
+    </ville>
+    <ville>
+        <nameen>Rondeau (Provincial Park)</nameen>
+        <namefr>Rondeau (Parc provincial)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000080</code>
+        <lat>42.30</lat>
+        <long>81.89</long>
+    </ville>
+    <ville>
+        <nameen>Killarney</nameen>
+        <namefr>Killarney</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000088</code>
+        <lat>46.06</lat>
+        <long>80.98</long>
+    </ville>
+    <ville>
+        <nameen>Atikokan</nameen>
+        <namefr>Atikokan</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000103</code>
+        <lat>48.76</lat>
+        <long>91.61</long>
+    </ville>
+    <ville>
+        <nameen>Fort Frances</nameen>
+        <namefr>Fort Frances</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000104</code>
+        <lat>48.61</lat>
+        <long>93.39</long>
+    </ville>
+    <ville>
+        <nameen>Mine Centre</nameen>
+        <namefr>Mine Centre</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000105</code>
+        <lat>48.77</lat>
+        <long>92.62</long>
+    </ville>
+    <ville>
+        <nameen>Collingwood</nameen>
+        <namefr>Collingwood</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000108</code>
+        <lat>44.50</lat>
+        <long>80.24</long>
+    </ville>
+    <ville>
+        <nameen>Upsala</nameen>
+        <namefr>Upsala</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000127</code>
+        <lat>49.06</lat>
+        <long>90.50</long>
+    </ville>
+    <ville>
+        <nameen>Goderich</nameen>
+        <namefr>Goderich</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000165</code>
+        <lat>43.74</lat>
+        <long>81.70</long>
+    </ville>
+    <ville>
+        <nameen>Kincardine</nameen>
+        <namefr>Kincardine</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000166</code>
+        <lat>44.17</lat>
+        <long>81.63</long>
+    </ville>
+    <ville>
+        <nameen>Brockville</nameen>
+        <namefr>Brockville</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000168</code>
+        <lat>44.60</lat>
+        <long>75.69</long>
+    </ville>
+    <ville>
+        <nameen>Gananoque</nameen>
+        <namefr>Gananoque</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000169</code>
+        <lat>44.33</lat>
+        <long>76.16</long>
+    </ville>
+    <ville>
+        <nameen>Ogoki</nameen>
+        <namefr>Ogoki</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000231</code>
+        <lat>51.63</lat>
+        <long>85.95</long>
+    </ville>
+    <ville>
+        <nameen>Webequie</nameen>
+        <namefr>Webequie</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000232</code>
+        <lat>52.99</lat>
+        <long>87.36</long>
+    </ville>
+    <ville>
+        <nameen>Lansdowne House</nameen>
+        <namefr>Lansdowne House</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000233</code>
+        <lat>52.22</lat>
+        <long>87.89</long>
+    </ville>
+    <ville>
+        <nameen>Wingham</nameen>
+        <namefr>Wingham</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000235</code>
+        <lat>43.89</lat>
+        <long>81.31</long>
+    </ville>
+    <ville>
+        <nameen>Walkerton</nameen>
+        <namefr>Walkerton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000236</code>
+        <lat>44.13</lat>
+        <long>81.15</long>
+    </ville>
+    <ville>
+        <nameen>Dundalk</nameen>
+        <namefr>Dundalk</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000237</code>
+        <lat>44.17</lat>
+        <long>80.39</long>
+    </ville>
+    <ville>
+        <nameen>North Perth</nameen>
+        <namefr>North Perth</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000238</code>
+        <lat>43.73</lat>
+        <long>80.97</long>
+    </ville>
+    <ville>
+        <nameen>Shelburne</nameen>
+        <namefr>Shelburne</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000239</code>
+        <lat>44.08</lat>
+        <long>80.20</long>
+    </ville>
+    <ville>
+        <nameen>Mount Forest</nameen>
+        <namefr>Mount Forest</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000240</code>
+        <lat>43.98</lat>
+        <long>80.74</long>
+    </ville>
+    <ville>
+        <nameen>Cobourg</nameen>
+        <namefr>Cobourg</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000251</code>
+        <lat>43.96</lat>
+        <long>78.16</long>
+    </ville>
+    <ville>
+        <nameen>Hearst</nameen>
+        <namefr>Hearst</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000266</code>
+        <lat>49.69</lat>
+        <long>83.65</long>
+    </ville>
+    <ville>
+        <nameen>Hornepayne</nameen>
+        <namefr>Hornepayne</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000267</code>
+        <lat>49.25</lat>
+        <long>84.78</long>
+    </ville>
+    <ville>
+        <nameen>Midland</nameen>
+        <namefr>Midland</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000281</code>
+        <lat>44.75</lat>
+        <long>79.88</long>
+    </ville>
+    <ville>
+        <nameen>Fort Erie</nameen>
+        <namefr>Fort Erie</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000282</code>
+        <lat>42.92</lat>
+        <long>79.02</long>
+    </ville>
+    <ville>
+        <nameen>Port Colborne</nameen>
+        <namefr>Port Colborne</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000283</code>
+        <lat>42.92</lat>
+        <long>79.19</long>
+    </ville>
+    <ville>
+        <nameen>Bancroft</nameen>
+        <namefr>Bancroft</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000301</code>
+        <lat>45.06</lat>
+        <long>77.76</long>
+    </ville>
+    <ville>
+        <nameen>Barry's Bay</nameen>
+        <namefr>Barry's Bay</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000302</code>
+        <lat>45.49</lat>
+        <long>77.68</long>
+    </ville>
+    <ville>
+        <nameen>Haliburton</nameen>
+        <namefr>Haliburton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000303</code>
+        <lat>45.05</lat>
+        <long>78.51</long>
+    </ville>
+    <ville>
+        <nameen>Apsley</nameen>
+        <namefr>Apsley</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000304</code>
+        <lat>44.76</lat>
+        <long>78.09</long>
+    </ville>
+    <ville>
+        <nameen>Kaladar</nameen>
+        <namefr>Kaladar</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000305</code>
+        <lat>44.65</lat>
+        <long>77.12</long>
+    </ville>
+    <ville>
+        <nameen>Stratford</nameen>
+        <namefr>Stratford</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000325</code>
+        <lat>43.37</lat>
+        <long>80.98</long>
+    </ville>
+    <ville>
+        <nameen>London</nameen>
+        <namefr>London</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000326</code>
+        <lat>42.97</lat>
+        <long>81.23</long>
+    </ville>
+    <ville>
+        <nameen>Woodstock</nameen>
+        <namefr>Woodstock</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000327</code>
+        <lat>43.14</lat>
+        <long>80.74</long>
+    </ville>
+    <ville>
+        <nameen>Strathroy</nameen>
+        <namefr>Strathroy</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000328</code>
+        <lat>42.96</lat>
+        <long>81.62</long>
+    </ville>
+    <ville>
+        <nameen>St. Thomas</nameen>
+        <namefr>St. Thomas</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000329</code>
+        <lat>42.78</lat>
+        <long>81.19</long>
+    </ville>
+    <ville>
+        <nameen>Oakville</nameen>
+        <namefr>Oakville</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000367</code>
+        <lat>43.46</lat>
+        <long>79.71</long>
+    </ville>
+    <ville>
+        <nameen>Burlington</nameen>
+        <namefr>Burlington</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000368</code>
+        <lat>43.37</lat>
+        <long>79.81</long>
+    </ville>
+    <ville>
+        <nameen>Peawanuck</nameen>
+        <namefr>Peawanuck</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000374</code>
+        <lat>55.02</lat>
+        <long>85.42</long>
+    </ville>
+    <ville>
+        <nameen>Gull Bay</nameen>
+        <namefr>Gull Bay</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000395</code>
+        <lat>49.80</lat>
+        <long>89.11</long>
+    </ville>
+    <ville>
+        <nameen>Thunder Bay</nameen>
+        <namefr>Thunder Bay</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000411</code>
+        <lat>48.40</lat>
+        <long>89.27</long>
+    </ville>
+    <ville>
+        <nameen>Orillia</nameen>
+        <namefr>Orillia</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000414</code>
+        <lat>44.60</lat>
+        <long>79.42</long>
+    </ville>
+    <ville>
+        <nameen>Barrie</nameen>
+        <namefr>Barrie</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000415</code>
+        <lat>44.37</lat>
+        <long>79.68</long>
+    </ville>
+    <ville>
+        <nameen>Greenstone (Beardmore)</nameen>
+        <namefr>Greenstone (Beardmore)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000418</code>
+        <lat>49.60</lat>
+        <long>87.96</long>
+    </ville>
+    <ville>
+        <nameen>Nipigon</nameen>
+        <namefr>Nipigon</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000419</code>
+        <lat>48.98</lat>
+        <long>88.33</long>
+    </ville>
+    <ville>
+        <nameen>Tobermory</nameen>
+        <namefr>Tobermory</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000422</code>
+        <lat>45.25</lat>
+        <long>81.66</long>
+    </ville>
+    <ville>
+        <nameen>Simcoe</nameen>
+        <namefr>Simcoe</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000424</code>
+        <lat>42.84</lat>
+        <long>80.31</long>
+    </ville>
+    <ville>
+        <nameen>Tillsonburg</nameen>
+        <namefr>Tillsonburg</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000425</code>
+        <lat>42.87</lat>
+        <long>80.73</long>
+    </ville>
+    <ville>
+        <nameen>Norfolk</nameen>
+        <namefr>Norfolk</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000426</code>
+        <lat>42.80</lat>
+        <long>80.41</long>
+    </ville>
+    <ville>
+        <nameen>Ear Falls</nameen>
+        <namefr>Ear Falls</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000428</code>
+        <lat>50.64</lat>
+        <long>93.24</long>
+    </ville>
+    <ville>
+        <nameen>New Tecumseth</nameen>
+        <namefr>New Tecumseth</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000429</code>
+        <lat>44.08</lat>
+        <long>79.77</long>
+    </ville>
+    <ville>
+        <nameen>Ottawa (Kanata - Orléans)</nameen>
+        <namefr>Ottawa (Kanata - Orléans)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000430</code>
+        <lat>45.33</lat>
+        <long>75.58</long>
+    </ville>
+    <ville>
+        <nameen>Leamington</nameen>
+        <namefr>Leamington</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000431</code>
+        <lat>42.10</lat>
+        <long>82.56</long>
+    </ville>
+    <ville>
+        <nameen>Smiths Falls</nameen>
+        <namefr>Smiths Falls</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000434</code>
+        <lat>44.90</lat>
+        <long>76.02</long>
+    </ville>
+    <ville>
+        <nameen>Sharbot Lake</nameen>
+        <namefr>Sharbot Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000435</code>
+        <lat>44.77</lat>
+        <long>76.69</long>
+    </ville>
+    <ville>
+        <nameen>Kemptville</nameen>
+        <namefr>Kemptville</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000436</code>
+        <lat>45.02</lat>
+        <long>75.64</long>
+    </ville>
+    <ville>
+        <nameen>Kirkland Lake</nameen>
+        <namefr>Kirkland Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000437</code>
+        <lat>48.15</lat>
+        <long>80.03</long>
+    </ville>
+    <ville>
+        <nameen>Parry Sound</nameen>
+        <namefr>Parry Sound</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000451</code>
+        <lat>45.35</lat>
+        <long>80.04</long>
+    </ville>
+    <ville>
+        <nameen>Dunchurch</nameen>
+        <namefr>Dunchurch</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000452</code>
+        <lat>45.65</lat>
+        <long>79.85</long>
+    </ville>
+    <ville>
+        <nameen>Chatham-Kent</nameen>
+        <namefr>Chatham-Kent</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000454</code>
+        <lat>42.43</lat>
+        <long>82.13</long>
+    </ville>
+    <ville>
+        <nameen>Rodney</nameen>
+        <namefr>Rodney</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000455</code>
+        <lat>42.57</lat>
+        <long>81.68</long>
+    </ville>
+    <ville>
+        <nameen>Toronto</nameen>
+        <namefr>Toronto</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000458</code>
+        <lat>43.74</lat>
+        <long>79.37</long>
+    </ville>
+    <ville>
+        <nameen>Vineland</nameen>
+        <namefr>Vineland</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000469</code>
+        <lat>43.15</lat>
+        <long>79.39</long>
+    </ville>
+    <ville>
+        <nameen>Lincoln</nameen>
+        <namefr>Lincoln</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000470</code>
+        <lat>43.15</lat>
+        <long>79.42</long>
+    </ville>
+    <ville>
+        <nameen>Sault Ste. Marie</nameen>
+        <namefr>Sault Ste. Marie</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000479</code>
+        <lat>46.56</lat>
+        <long>84.35</long>
+    </ville>
+    <ville>
+        <nameen>Alliston</nameen>
+        <namefr>Alliston</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000489</code>
+        <lat>44.15</lat>
+        <long>79.86</long>
+    </ville>
+    <ville>
+        <nameen>Elliot Lake</nameen>
+        <namefr>Elliot Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000512</code>
+        <lat>46.38</lat>
+        <long>82.66</long>
+    </ville>
+    <ville>
+        <nameen>Blind River</nameen>
+        <namefr>Blind River</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000513</code>
+        <lat>46.19</lat>
+        <long>82.96</long>
+    </ville>
+    <ville>
+        <nameen>Fort Severn</nameen>
+        <namefr>Fort Severn</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000517</code>
+        <lat>56.00</lat>
+        <long>87.62</long>
+    </ville>
+    <ville>
+        <nameen>Armstrong</nameen>
+        <namefr>Armstrong</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000520</code>
+        <lat>50.30</lat>
+        <long>89.04</long>
+    </ville>
+    <ville>
+        <nameen>Greater Napanee</nameen>
+        <namefr>Greater Napanee</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000528</code>
+        <lat>44.24</lat>
+        <long>76.97</long>
+    </ville>
+    <ville>
+        <nameen>Sydenham</nameen>
+        <namefr>Sydenham</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000529</code>
+        <lat>44.41</lat>
+        <long>76.60</long>
+    </ville>
+    <ville>
+        <nameen>Westport</nameen>
+        <namefr>Westport</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000530</code>
+        <lat>44.68</lat>
+        <long>76.40</long>
+    </ville>
+    <ville>
+        <nameen>Kingston</nameen>
+        <namefr>Kingston</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000531</code>
+        <lat>44.31</lat>
+        <long>76.42</long>
+    </ville>
+    <ville>
+        <nameen>Greenstone (Geraldton)</nameen>
+        <namefr>Greenstone (Geraldton)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000538</code>
+        <lat>49.72</lat>
+        <long>86.95</long>
+    </ville>
+    <ville>
+        <nameen>Greenstone (Nakina)</nameen>
+        <namefr>Greenstone (Nakina)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000539</code>
+        <lat>50.18</lat>
+        <long>86.71</long>
+    </ville>
+    <ville>
+        <nameen>Dryden</nameen>
+        <namefr>Dryden</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000546</code>
+        <lat>49.78</lat>
+        <long>92.77</long>
+    </ville>
+    <ville>
+        <nameen>Haldimand County</nameen>
+        <namefr>Haldimand County</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000548</code>
+        <lat>42.99</lat>
+        <long>79.85</long>
+    </ville>
+    <ville>
+        <nameen>Hamilton</nameen>
+        <namefr>Hamilton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000549</code>
+        <lat>43.24</lat>
+        <long>79.99</long>
+    </ville>
+    <ville>
+        <nameen>Brantford</nameen>
+        <namefr>Brantford</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000550</code>
+        <lat>43.16</lat>
+        <long>80.26</long>
+    </ville>
+    <ville>
+        <nameen>Guelph</nameen>
+        <namefr>Guelph</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000571</code>
+        <lat>43.54</lat>
+        <long>80.23</long>
+    </ville>
+    <ville>
+        <nameen>Cambridge</nameen>
+        <namefr>Cambridge</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000572</code>
+        <lat>43.40</lat>
+        <long>80.31</long>
+    </ville>
+    <ville>
+        <nameen>Kitchener-Waterloo</nameen>
+        <namefr>Kitchener-Waterloo</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000573</code>
+        <lat>43.42</lat>
+        <long>80.47</long>
+    </ville>
+    <ville>
+        <nameen>Newmarket</nameen>
+        <namefr>Newmarket</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000582</code>
+        <lat>44.06</lat>
+        <long>79.46</long>
+    </ville>
+    <ville>
+        <nameen>Vaughan</nameen>
+        <namefr>Vaughan</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000584</code>
+        <lat>43.85</lat>
+        <long>79.54</long>
+    </ville>
+    <ville>
+        <nameen>Markham</nameen>
+        <namefr>Markham</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000585</code>
+        <lat>43.88</lat>
+        <long>79.26</long>
+    </ville>
+    <ville>
+        <nameen>Chapleau</nameen>
+        <namefr>Chapleau</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000588</code>
+        <lat>47.84</lat>
+        <long>83.40</long>
+    </ville>
+    <ville>
+        <nameen>Moosonee</nameen>
+        <namefr>Moosonee</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000596</code>
+        <lat>51.33</lat>
+        <long>80.72</long>
+    </ville>
+    <ville>
+        <nameen>Fort Albany</nameen>
+        <namefr>Fort Albany</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000597</code>
+        <lat>52.21</lat>
+        <long>81.68</long>
+    </ville>
+    <ville>
+        <nameen>Ottawa (Richmond - Metcalfe)</nameen>
+        <namefr>Ottawa (Richmond - Metcalfe)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000623</code>
+        <lat>45.24</lat>
+        <long>75.47</long>
+    </ville>
+    <ville>
+        <nameen>Pickle Lake</nameen>
+        <namefr>Pickle Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000628</code>
+        <lat>51.47</lat>
+        <long>90.20</long>
+    </ville>
+    <ville>
+        <nameen>Peterborough</nameen>
+        <namefr>Peterborough</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000629</code>
+        <lat>44.30</lat>
+        <long>78.33</long>
+    </ville>
+    <ville>
+        <nameen>Port Perry</nameen>
+        <namefr>Port Perry</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000630</code>
+        <lat>44.10</lat>
+        <long>78.95</long>
+    </ville>
+    <ville>
+        <nameen>Kawartha Lakes (Lindsay)</nameen>
+        <namefr>Kawartha Lakes (Lindsay)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000631</code>
+        <lat>44.36</lat>
+        <long>78.74</long>
+    </ville>
+    <ville>
+        <nameen>Kawartha Lakes (Fenelon Falls)</nameen>
+        <namefr>Kawartha Lakes (Fenelon Falls)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000632</code>
+        <lat>44.54</lat>
+        <long>78.74</long>
+    </ville>
+    <ville>
+        <nameen>Burk's Falls</nameen>
+        <namefr>Burk's Falls</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000637</code>
+        <lat>45.63</lat>
+        <long>79.40</long>
+    </ville>
+    <ville>
+        <nameen>Gravenhurst</nameen>
+        <namefr>Gravenhurst</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000638</code>
+        <lat>44.87</lat>
+        <long>79.34</long>
+    </ville>
+    <ville>
+        <nameen>Port Carling</nameen>
+        <namefr>Port Carling</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000639</code>
+        <lat>45.12</lat>
+        <long>79.58</long>
+    </ville>
+    <ville>
+        <nameen>Huntsville</nameen>
+        <namefr>Huntsville</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000640</code>
+        <lat>45.31</lat>
+        <long>79.28</long>
+    </ville>
+    <ville>
+        <nameen>Bracebridge</nameen>
+        <namefr>Bracebridge</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000641</code>
+        <lat>45.03</lat>
+        <long>79.19</long>
+    </ville>
+    <ville>
+        <nameen>Muskoka</nameen>
+        <namefr>Muskoka</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000642</code>
+        <lat>44.91</lat>
+        <long>79.37</long>
+    </ville>
+    <ville>
+        <nameen>Windsor</nameen>
+        <namefr>Windsor</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000646</code>
+        <lat>42.30</lat>
+        <long>82.99</long>
+    </ville>
+    <ville>
+        <nameen>Sioux Narrows</nameen>
+        <namefr>Sioux Narrows</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000650</code>
+        <lat>49.41</lat>
+        <long>94.10</long>
+    </ville>
+    <ville>
+        <nameen>Kenora</nameen>
+        <namefr>Kenora</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000651</code>
+        <lat>49.82</lat>
+        <long>94.44</long>
+    </ville>
+    <ville>
+        <nameen>Brampton</nameen>
+        <namefr>Brampton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000658</code>
+        <lat>43.69</lat>
+        <long>79.76</long>
+    </ville>
+    <ville>
+        <nameen>Kakabeka Falls</nameen>
+        <namefr>Kakabeka Falls</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000659</code>
+        <lat>48.41</lat>
+        <long>89.62</long>
+    </ville>
+    <ville>
+        <nameen>Dorion</nameen>
+        <namefr>Dorion</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000660</code>
+        <lat>48.79</lat>
+        <long>88.65</long>
+    </ville>
+    <ville>
+        <nameen>Red Lake</nameen>
+        <namefr>Red Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000676</code>
+        <lat>51.10</lat>
+        <long>93.72</long>
+    </ville>
+    <ville>
+        <nameen>Pikangikum</nameen>
+        <namefr>Pikangikum</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000677</code>
+        <lat>51.81</lat>
+        <long>93.99</long>
+    </ville>
+    <ville>
+        <nameen>Greater Sudbury</nameen>
+        <namefr>Grand Sudbury</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000680</code>
+        <lat>46.58</lat>
+        <long>81.07</long>
+    </ville>
+    <ville>
+        <nameen>St. Catharines</nameen>
+        <namefr>St. Catharines</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000691</code>
+        <lat>43.17</lat>
+        <long>79.25</long>
+    </ville>
+    <ville>
+        <nameen>Niagara Falls</nameen>
+        <namefr>Niagara Falls</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000692</code>
+        <lat>43.06</lat>
+        <long>79.11</long>
+    </ville>
+    <ville>
+        <nameen>Sachigo Lake</nameen>
+        <namefr>Sachigo Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000696</code>
+        <lat>53.87</lat>
+        <long>92.17</long>
+    </ville>
+    <ville>
+        <nameen>Big Trout Lake</nameen>
+        <namefr>Big Trout Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000697</code>
+        <lat>53.75</lat>
+        <long>90.00</long>
+    </ville>
+    <ville>
+        <nameen>Wunnummin Lake</nameen>
+        <namefr>Wunnummin Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000698</code>
+        <lat>52.94</lat>
+        <long>89.30</long>
+    </ville>
+    <ville>
+        <nameen>Stirling</nameen>
+        <namefr>Stirling</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000700</code>
+        <lat>44.30</lat>
+        <long>77.55</long>
+    </ville>
+    <ville>
+        <nameen>Trenton</nameen>
+        <namefr>Trenton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000701</code>
+        <lat>44.11</lat>
+        <long>77.58</long>
+    </ville>
+    <ville>
+        <nameen>Prince Edward (Picton)</nameen>
+        <namefr>Prince Edward (Picton)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000702</code>
+        <lat>44.02</lat>
+        <long>77.26</long>
+    </ville>
+    <ville>
+        <nameen>Belleville</nameen>
+        <namefr>Belleville</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000703</code>
+        <lat>44.26</lat>
+        <long>77.37</long>
+    </ville>
+    <ville>
+        <nameen>Quinte West</nameen>
+        <namefr>Quinte Ouest</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000704</code>
+        <lat>44.20</lat>
+        <long>77.58</long>
+    </ville>
+    <ville>
+        <nameen>Timmins</nameen>
+        <namefr>Timmins</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000705</code>
+        <lat>48.47</lat>
+        <long>81.33</long>
+    </ville>
+    <ville>
+        <nameen>Cochrane</nameen>
+        <namefr>Cochrane</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000706</code>
+        <lat>49.17</lat>
+        <long>81.06</long>
+    </ville>
+    <ville>
+        <nameen>Oshawa</nameen>
+        <namefr>Oshawa</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000707</code>
+        <lat>43.90</lat>
+        <long>78.86</long>
+    </ville>
+    <ville>
+        <nameen>Whitby</nameen>
+        <namefr>Whitby</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000708</code>
+        <lat>43.93</lat>
+        <long>78.95</long>
+    </ville>
+    <ville>
+        <nameen>Pickering</nameen>
+        <namefr>Pickering</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000710</code>
+        <lat>43.91</lat>
+        <long>79.13</long>
+    </ville>
+    <ville>
+        <nameen>Wiarton</nameen>
+        <namefr>Wiarton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000724</code>
+        <lat>44.74</lat>
+        <long>81.14</long>
+    </ville>
+    <ville>
+        <nameen>Port Elgin</nameen>
+        <namefr>Port Elgin</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000725</code>
+        <lat>44.44</lat>
+        <long>81.39</long>
+    </ville>
+    <ville>
+        <nameen>Saugeen Shores</nameen>
+        <namefr>Saugeen Shores</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000726</code>
+        <lat>44.41</lat>
+        <long>81.37</long>
+    </ville>
+    <ville>
+        <nameen>South Bruce Peninsula</nameen>
+        <namefr>South Bruce Peninsula</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000727</code>
+        <lat>44.71</lat>
+        <long>81.22</long>
+    </ville>
+    <ville>
+        <nameen>Owen Sound</nameen>
+        <namefr>Owen Sound</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000728</code>
+        <lat>44.57</lat>
+        <long>80.93</long>
+    </ville>
+    <ville>
+        <nameen>Petawawa</nameen>
+        <namefr>Petawawa</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000729</code>
+        <lat>45.91</lat>
+        <long>77.27</long>
+    </ville>
+    <ville>
+        <nameen>Pembroke</nameen>
+        <namefr>Pembroke</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000730</code>
+        <lat>45.82</lat>
+        <long>77.11</long>
+    </ville>
+    <ville>
+        <nameen>Renfrew</nameen>
+        <namefr>Renfrew</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000731</code>
+        <lat>45.47</lat>
+        <long>76.68</long>
+    </ville>
+    <ville>
+        <nameen>Deep River</nameen>
+        <namefr>Deep River</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000732</code>
+        <lat>46.05</lat>
+        <long>77.42</long>
+    </ville>
+    <ville>
+        <nameen>Lambton Shores</nameen>
+        <namefr>Lambton Shores</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000744</code>
+        <lat>43.18</lat>
+        <long>81.90</long>
+    </ville>
+    <ville>
+        <nameen>Savant Lake</nameen>
+        <namefr>Savant Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000747</code>
+        <lat>50.24</lat>
+        <long>90.71</long>
+    </ville>
+    <ville>
+        <nameen>Sioux Lookout</nameen>
+        <namefr>Sioux Lookout</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000748</code>
+        <lat>50.09</lat>
+        <long>92.00</long>
+    </ville>
+    <ville>
+        <nameen>Earlton</nameen>
+        <namefr>Earlton</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000752</code>
+        <lat>47.71</lat>
+        <long>79.82</long>
+    </ville>
+    <ville>
+        <nameen>Temiskaming Shores</nameen>
+        <namefr>Temiskaming Shores</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000753</code>
+        <lat>47.49</lat>
+        <long>79.72</long>
+    </ville>
+    <ville>
+        <nameen>Wawa</nameen>
+        <namefr>Wawa</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000761</code>
+        <lat>47.99</lat>
+        <long>84.77</long>
+    </ville>
+    <ville>
+        <nameen>Montreal River Harbour</nameen>
+        <namefr>Montreal River Harbour</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000762</code>
+        <lat>47.24</lat>
+        <long>84.65</long>
+    </ville>
+    <ville>
+        <nameen>Lake Superior (Provincial Park)</nameen>
+        <namefr>Lac Supérieur (Parc provincial)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000763</code>
+        <lat>47.60</lat>
+        <long>84.74</long>
+    </ville>
+    <ville>
+        <nameen>White River</nameen>
+        <namefr>White River</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000764</code>
+        <lat>48.58</lat>
+        <long>85.26</long>
+    </ville>
+    <ville>
+        <nameen>North Bay</nameen>
+        <namefr>North Bay</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000765</code>
+        <lat>46.31</lat>
+        <long>79.46</long>
+    </ville>
+    <ville>
+        <nameen>West Nipissing</nameen>
+        <namefr>Nipissing Ouest</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000766</code>
+        <lat>46.45</lat>
+        <long>80.04</long>
+    </ville>
+    <ville>
+        <nameen>Richmond Hill</nameen>
+        <namefr>Richmond Hill</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000773</code>
+        <lat>43.87</lat>
+        <long>79.44</long>
+    </ville>
+    <ville>
+        <nameen>Kapuskasing</nameen>
+        <namefr>Kapuskasing</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000782</code>
+        <lat>49.42</lat>
+        <long>82.42</long>
+    </ville>
+    <ville>
+        <nameen>Toronto Island</nameen>
+        <namefr>Toronto Island</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000785</code>
+        <lat>43.63</lat>
+        <long>79.37</long>
+    </ville>
+    <ville>
+        <nameen>Mississauga</nameen>
+        <namefr>Mississauga</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000786</code>
+        <lat>43.59</lat>
+        <long>79.66</long>
+    </ville>
+    <ville>
+        <nameen>Caledon</nameen>
+        <namefr>Caledon</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000787</code>
+        <lat>43.87</lat>
+        <long>79.86</long>
+    </ville>
+    <ville>
+        <nameen>Halton Hills</nameen>
+        <namefr>Halton Hills</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000789</code>
+        <lat>43.63</lat>
+        <long>79.95</long>
+    </ville>
+    <ville>
+        <nameen>Gore Bay</nameen>
+        <namefr>Gore Bay</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000790</code>
+        <lat>45.92</lat>
+        <long>82.46</long>
+    </ville>
+    <ville>
+        <nameen>Sarnia</nameen>
+        <namefr>Sarnia</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000796</code>
+        <lat>42.98</lat>
+        <long>82.32</long>
+    </ville>
+    <ville>
+        <nameen>Orangeville</nameen>
+        <namefr>Orangeville</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000815</code>
+        <lat>43.92</lat>
+        <long>80.11</long>
+    </ville>
+    <ville>
+        <nameen>Ignace</nameen>
+        <namefr>Ignace</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000819</code>
+        <lat>49.41</lat>
+        <long>91.68</long>
+    </ville>
+    <ville>
+        <nameen>Sandy Lake</nameen>
+        <namefr>Sandy Lake</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000826</code>
+        <lat>53.06</lat>
+        <long>93.32</long>
+    </ville>
+    <ville>
+        <nameen>Sudbury (Greater)</nameen>
+        <namefr>Sudbury (Grand)</namefr>
+        <provincecode>ON</provincecode>
+        <code>s0000843</code>
+        <lat>46.58</lat>
+        <long>81.07</long>
+    </ville>
+</villes>

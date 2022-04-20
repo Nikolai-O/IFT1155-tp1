@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Clearwater</nameen>
+        <namefr>Clearwater</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000002</code>
+        <lat>51.65</lat>
+        <long>120.03</long>
+    </ville>
+    <ville>
+        <nameen>Valemount</nameen>
+        <namefr>Valemount</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000003</code>
+        <lat>52.83</lat>
+        <long>119.25</long>
+    </ville>
+    <ville>
+        <nameen>Grand Forks</nameen>
+        <namefr>Grand Forks</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000004</code>
+        <lat>49.03</lat>
+        <long>118.43</long>
+    </ville>
+    <ville>
+        <nameen>McBride</nameen>
+        <namefr>McBride</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000005</code>
+        <lat>53.30</lat>
+        <long>120.17</long>
+    </ville>
+    <ville>
+        <nameen>Merritt</nameen>
+        <namefr>Merritt</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000006</code>
+        <lat>50.11</lat>
+        <long>120.79</long>
+    </ville>
+    <ville>
+        <nameen>Masset</nameen>
+        <namefr>Masset</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000007</code>
+        <lat>54.02</lat>
+        <long>132.10</long>
+    </ville>
+    <ville>
+        <nameen>Invermere</nameen>
+        <namefr>Invermere</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000008</code>
+        <lat>50.52</lat>
+        <long>116.03</long>
+    </ville>
+    <ville>
+        <nameen>Dome Creek</nameen>
+        <namefr>Dome Creek</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000009</code>
+        <lat>53.75</lat>
+        <long>121.03</long>
+    </ville>
+    <ville>
+        <nameen>Whistler</nameen>
+        <namefr>Whistler</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000078</code>
+        <lat>50.12</lat>
+        <long>122.97</long>
+    </ville>
+    <ville>
+        <nameen>100 Mile House</nameen>
+        <namefr>100 Mile House</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000106</code>
+        <lat>51.65</lat>
+        <long>121.28</long>
+    </ville>
+    <ville>
+        <nameen>Clinton</nameen>
+        <namefr>Clinton</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000107</code>
+        <lat>51.08</lat>
+        <long>121.58</long>
+    </ville>
+    <ville>
+        <nameen>Estevan Point</nameen>
+        <namefr>Estevan Point</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000132</code>
+        <lat>49.38</lat>
+        <long>126.55</long>
+    </ville>
+    <ville>
+        <nameen>Vancouver</nameen>
+        <namefr>Vancouver</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000141</code>
+        <lat>49.25</lat>
+        <long>123.12</long>
+    </ville>
+    <ville>
+        <nameen>Prince George</nameen>
+        <namefr>Prince George</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000146</code>
+        <lat>53.92</lat>
+        <long>122.75</long>
+    </ville>
+    <ville>
+        <nameen>Gulf Islands (Southern)</nameen>
+        <namefr>Gulf Islands (Secteur sud)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000155</code>
+        <lat>48.95</lat>
+        <long>123.53</long>
+    </ville>
+    <ville>
+        <nameen>Pemberton</nameen>
+        <namefr>Pemberton</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000173</code>
+        <lat>50.32</lat>
+        <long>122.80</long>
+    </ville>
+    <ville>
+        <nameen>Sparwood</nameen>
+        <namefr>Sparwood</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000175</code>
+        <lat>49.72</lat>
+        <long>114.90</long>
+    </ville>
+    <ville>
+        <nameen>Creston</nameen>
+        <namefr>Creston</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000212</code>
+        <lat>49.10</lat>
+        <long>116.50</long>
+    </ville>
+    <ville>
+        <nameen>Vernon</nameen>
+        <namefr>Vernon</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000216</code>
+        <lat>50.26</lat>
+        <long>119.27</long>
+    </ville>
+    <ville>
+        <nameen>Lillooet</nameen>
+        <namefr>Lillooet</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000222</code>
+        <lat>50.68</lat>
+        <long>121.93</long>
+    </ville>
+    <ville>
+        <nameen>Malahat</nameen>
+        <namefr>Malahat</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000224</code>
+        <lat>48.55</lat>
+        <long>123.57</long>
+    </ville>
+    <ville>
+        <nameen>Hope Slide</nameen>
+        <namefr>Hope Slide</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000226</code>
+        <lat>49.30</lat>
+        <long>121.27</long>
+    </ville>
+    <ville>
+        <nameen>Dease Lake</nameen>
+        <namefr>Dease Lake</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000227</code>
+        <lat>58.43</lat>
+        <long>130.02</long>
+    </ville>
+    <ville>
+        <nameen>Cassiar</nameen>
+        <namefr>Cassiar</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000228</code>
+        <lat>59.29</lat>
+        <long>129.85</long>
+    </ville>
+    <ville>
+        <nameen>Gonzales Point</nameen>
+        <namefr>Gonzales Point</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000234</code>
+        <lat>48.41</lat>
+        <long>123.29</long>
+    </ville>
+    <ville>
+        <nameen>Lytton</nameen>
+        <namefr>Lytton</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000242</code>
+        <lat>50.23</lat>
+        <long>121.57</long>
+    </ville>
+    <ville>
+        <nameen>Pitt Meadows</nameen>
+        <namefr>Pitt Meadows</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000247</code>
+        <lat>49.22</lat>
+        <long>122.69</long>
+    </ville>
+    <ville>
+        <nameen>Nelson</nameen>
+        <namefr>Nelson</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000258</code>
+        <lat>49.50</lat>
+        <long>117.28</long>
+    </ville>
+    <ville>
+        <nameen>Nakusp</nameen>
+        <namefr>Nakusp</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000259</code>
+        <lat>50.25</lat>
+        <long>117.80</long>
+    </ville>
+    <ville>
+        <nameen>Esquimalt</nameen>
+        <namefr>Esquimalt</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000286</code>
+        <lat>48.45</lat>
+        <long>123.42</long>
+    </ville>
+    <ville>
+        <nameen>Princeton</nameen>
+        <namefr>Princeton</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000291</code>
+        <lat>49.46</lat>
+        <long>120.51</long>
+    </ville>
+    <ville>
+        <nameen>Puntzi Mountain</nameen>
+        <namefr>Puntzi Mountain</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000292</code>
+        <lat>52.17</lat>
+        <long>124.20</long>
+    </ville>
+    <ville>
+        <nameen>Burns Lake</nameen>
+        <namefr>Burns Lake</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000293</code>
+        <lat>54.23</lat>
+        <long>125.75</long>
+    </ville>
+    <ville>
+        <nameen>Port Alberni</nameen>
+        <namefr>Port Alberni</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000294</code>
+        <lat>49.24</lat>
+        <long>124.80</long>
+    </ville>
+    <ville>
+        <nameen>Gibsons</nameen>
+        <namefr>Gibsons</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000316</code>
+        <lat>49.40</lat>
+        <long>123.50</long>
+    </ville>
+    <ville>
+        <nameen>Sechelt</nameen>
+        <namefr>Sechelt</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000317</code>
+        <lat>49.47</lat>
+        <long>123.77</long>
+    </ville>
+    <ville>
+        <nameen>Squamish</nameen>
+        <namefr>Squamish</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000323</code>
+        <lat>49.75</lat>
+        <long>123.13</long>
+    </ville>
+    <ville>
+        <nameen>Salmon Arm</nameen>
+        <namefr>Salmon Arm</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000324</code>
+        <lat>50.70</lat>
+        <long>119.27</long>
+    </ville>
+    <ville>
+        <nameen>Tetsa River (Provincial Park)</nameen>
+        <namefr>Tetsa River (Parc provincial)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000341</code>
+        <lat>58.65</lat>
+        <long>123.95</long>
+    </ville>
+    <ville>
+        <nameen>Summerland</nameen>
+        <namefr>Summerland</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000351</code>
+        <lat>49.60</lat>
+        <long>119.67</long>
+    </ville>
+    <ville>
+        <nameen>White Rock</nameen>
+        <namefr>White Rock</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000373</code>
+        <lat>49.02</lat>
+        <long>122.80</long>
+    </ville>
+    <ville>
+        <nameen>Muncho Lake</nameen>
+        <namefr>Muncho Lake</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000376</code>
+        <lat>58.93</lat>
+        <long>125.77</long>
+    </ville>
+    <ville>
+        <nameen>Liard River</nameen>
+        <namefr>Liard River</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000377</code>
+        <lat>59.42</lat>
+        <long>126.08</long>
+    </ville>
+    <ville>
+        <nameen>Victoria (University of)</nameen>
+        <namefr>Victoria (Université de)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000390</code>
+        <lat>48.46</lat>
+        <long>123.3</long>
+    </ville>
+    <ville>
+        <nameen>Kootenay (National Park)</nameen>
+        <namefr>Kootenay (Parc national)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000391</code>
+        <lat>50.95</lat>
+        <long>116.03</long>
+    </ville>
+    <ville>
+        <nameen>Yoho (National Park)</nameen>
+        <namefr>Yoho (Parc national)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000392</code>
+        <lat>51.50</lat>
+        <long>116.50</long>
+    </ville>
+    <ville>
+        <nameen>Rock Creek</nameen>
+        <namefr>Rock Creek</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000396</code>
+        <lat>49.05</lat>
+        <long>119.00</long>
+    </ville>
+    <ville>
+        <nameen>Osoyoos</nameen>
+        <namefr>Osoyoos</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000397</code>
+        <lat>49.03</lat>
+        <long>119.45</long>
+    </ville>
+    <ville>
+        <nameen>Chilliwack</nameen>
+        <namefr>Chilliwack</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000398</code>
+        <lat>49.18</lat>
+        <long>121.94</long>
+    </ville>
+    <ville>
+        <nameen>Agassiz</nameen>
+        <namefr>Agassiz</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000399</code>
+        <lat>49.23</lat>
+        <long>121.77</long>
+    </ville>
+    <ville>
+        <nameen>Atlin</nameen>
+        <namefr>Atlin</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000409</code>
+        <lat>59.57</lat>
+        <long>133.70</long>
+    </ville>
+    <ville>
+        <nameen>Tatlayoko Lake</nameen>
+        <namefr>Tatlayoko Lake</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000465</code>
+        <lat>51.72</lat>
+        <long>124.43</long>
+    </ville>
+    <ville>
+        <nameen>Trail</nameen>
+        <namefr>Trail</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000471</code>
+        <lat>49.10</lat>
+        <long>117.70</long>
+    </ville>
+    <ville>
+        <nameen>Tofino</nameen>
+        <namefr>Tofino</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000481</code>
+        <lat>49.12</lat>
+        <long>125.88</long>
+    </ville>
+    <ville>
+        <nameen>Ucluelet</nameen>
+        <namefr>Ucluelet</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000482</code>
+        <lat>48.94</lat>
+        <long>125.55</long>
+    </ville>
+    <ville>
+        <nameen>Bella Coola</nameen>
+        <namefr>Bella Coola</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000485</code>
+        <lat>52.38</lat>
+        <long>126.75</long>
+    </ville>
+    <ville>
+        <nameen>Campbell River</nameen>
+        <namefr>Campbell River</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000488</code>
+        <lat>50.02</lat>
+        <long>125.24</long>
+    </ville>
+    <ville>
+        <nameen>Nanaimo</nameen>
+        <namefr>Nanaimo</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000496</code>
+        <lat>49.17</lat>
+        <long>123.93</long>
+    </ville>
+    <ville>
+        <nameen>Castlegar</nameen>
+        <namefr>Castlegar</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000497</code>
+        <lat>49.30</lat>
+        <long>117.67</long>
+    </ville>
+    <ville>
+        <nameen>Blue River</nameen>
+        <namefr>Blue River</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000499</code>
+        <lat>52.10</lat>
+        <long>119.30</long>
+    </ville>
+    <ville>
+        <nameen>Chetwynd</nameen>
+        <namefr>Chetwynd</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000500</code>
+        <lat>55.70</lat>
+        <long>121.63</long>
+    </ville>
+    <ville>
+        <nameen>Dawson Creek</nameen>
+        <namefr>Dawson Creek</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000509</code>
+        <lat>55.77</lat>
+        <long>120.23</long>
+    </ville>
+    <ville>
+        <nameen>Golden</nameen>
+        <namefr>Golden</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000527</code>
+        <lat>51.30</lat>
+        <long>116.97</long>
+    </ville>
+    <ville>
+        <nameen>Hope</nameen>
+        <namefr>Hope</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000547</code>
+        <lat>49.38</lat>
+        <long>121.44</long>
+    </ville>
+    <ville>
+        <nameen>Kamloops</nameen>
+        <namefr>Kamloops</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000568</code>
+        <lat>50.67</lat>
+        <long>120.33</long>
+    </ville>
+    <ville>
+        <nameen>Cache Creek</nameen>
+        <namefr>Cache Creek</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000569</code>
+        <lat>50.81</lat>
+        <long>121.32</long>
+    </ville>
+    <ville>
+        <nameen>Kelowna</nameen>
+        <namefr>Kelowna</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000592</code>
+        <lat>49.88</lat>
+        <long>119.48</long>
+    </ville>
+    <ville>
+        <nameen>Prince Rupert</nameen>
+        <namefr>Prince Rupert</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000633</code>
+        <lat>54.32</lat>
+        <long>130.32</long>
+    </ville>
+    <ville>
+        <nameen>Powell River</nameen>
+        <namefr>Powell River</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000634</code>
+        <lat>49.85</lat>
+        <long>124.53</long>
+    </ville>
+    <ville>
+        <nameen>Good Hope Lake</nameen>
+        <namefr>Good Hope Lake</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000647</code>
+        <lat>59.28</lat>
+        <long>129.30</long>
+    </ville>
+    <ville>
+        <nameen>Comox</nameen>
+        <namefr>Comox</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000656</code>
+        <lat>49.68</lat>
+        <long>124.93</long>
+    </ville>
+    <ville>
+        <nameen>Courtenay</nameen>
+        <namefr>Courtenay</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000657</code>
+        <lat>49.68</lat>
+        <long>124.98</long>
+    </ville>
+    <ville>
+        <nameen>Quesnel</nameen>
+        <namefr>Quesnel</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000671</code>
+        <lat>53.00</lat>
+        <long>122.50</long>
+    </ville>
+    <ville>
+        <nameen>Revelstoke</nameen>
+        <namefr>Revelstoke</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000679</code>
+        <lat>50.98</lat>
+        <long>118.20</long>
+    </ville>
+    <ville>
+        <nameen>Victoria Harbour</nameen>
+        <namefr>Victoria Harbour</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000735</code>
+        <lat>48.42</lat>
+        <long>123.39</long>
+    </ville>
+    <ville>
+        <nameen>Williams Lake</nameen>
+        <namefr>Williams Lake</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000739</code>
+        <lat>52.14</lat>
+        <long>122.14</long>
+    </ville>
+    <ville>
+        <nameen>Cranbrook</nameen>
+        <namefr>Cranbrook</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000741</code>
+        <lat>49.50</lat>
+        <long>115.77</long>
+    </ville>
+    <ville>
+        <nameen>Fort St. John</nameen>
+        <namefr>Fort St. John</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000746</code>
+        <lat>56.25</lat>
+        <long>120.85</long>
+    </ville>
+    <ville>
+        <nameen>Vanderhoof</nameen>
+        <namefr>Vanderhoof</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000754</code>
+        <lat>54.02</lat>
+        <long>124.02</long>
+    </ville>
+    <ville>
+        <nameen>Kitimat</nameen>
+        <namefr>Kitimat</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000756</code>
+        <lat>54.05</lat>
+        <long>128.65</long>
+    </ville>
+    <ville>
+        <nameen>Terrace</nameen>
+        <namefr>Terrace</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000757</code>
+        <lat>54.52</lat>
+        <long>128.60</long>
+    </ville>
+    <ville>
+        <nameen>Abbotsford</nameen>
+        <namefr>Abbotsford</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000758</code>
+        <lat>49.06</lat>
+        <long>122.25</long>
+    </ville>
+    <ville>
+        <nameen>Smithers</nameen>
+        <namefr>Smithers</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000770</code>
+        <lat>54.78</lat>
+        <long>127.17</long>
+    </ville>
+    <ville>
+        <nameen>Fort Nelson</nameen>
+        <namefr>Fort Nelson</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000771</code>
+        <lat>58.81</lat>
+        <long>122.70</long>
+    </ville>
+    <ville>
+        <nameen>Penticton</nameen>
+        <namefr>Penticton</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000772</code>
+        <lat>49.50</lat>
+        <long>119.58</long>
+    </ville>
+    <ville>
+        <nameen>Victoria</nameen>
+        <namefr>Victoria</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000775</code>
+        <lat>48.43</lat>
+        <long>123.37</long>
+    </ville>
+    <ville>
+        <nameen>Victoria (Hartland)</nameen>
+        <namefr>Victoria (Hartland)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000792</code>
+        <lat>48.52</lat>
+        <long>123.43</long>
+    </ville>
+    <ville>
+        <nameen>Sandspit</nameen>
+        <namefr>Sandspit</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000795</code>
+        <lat>53.25</lat>
+        <long>131.82</long>
+    </ville>
+    <ville>
+        <nameen>Port Hardy</nameen>
+        <namefr>Port Hardy</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000799</code>
+        <lat>50.70</lat>
+        <long>127.42</long>
+    </ville>
+    <ville>
+        <nameen>Mackenzie</nameen>
+        <namefr>Mackenzie</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000805</code>
+        <lat>55.30</lat>
+        <long>123.17</long>
+    </ville>
+    <ville>
+        <nameen>Stewart</nameen>
+        <namefr>Stewart</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000828</code>
+        <lat>55.93</lat>
+        <long>129.98</long>
+    </ville>
+    <ville>
+        <nameen>Bella Bella</nameen>
+        <namefr>Bella Bella</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000834</code>
+        <lat>52.16</lat>
+        <long>128.14</long>
+    </ville>
+    <ville>
+        <nameen>Cummins Lakes (Provincial Park)</nameen>
+        <namefr>Cummins Lakes (Parc provincial)</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000845</code>
+        <lat>52.10</lat>
+        <long>118.06</long>
+    </ville>
+    <ville>
+        <nameen>Coquihalla Highway - Hope to Merritt</nameen>
+        <namefr>route de Coquihalla - de Hope à Merritt</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000846</code>
+        <lat>49.63</lat>
+        <long>121.02</long>
+    </ville>
+    <ville>
+        <nameen>Coquihalla Highway - Merritt to Kamloops</nameen>
+        <namefr>route de Coquihalla - de Merritt à Kamloops</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000847</code>
+        <lat>50.46</lat>
+        <long>120.59</long>
+    </ville>
+    <ville>
+        <nameen>Highway 3 - Hope to Princeton via Allison Pass</nameen>
+        <namefr>route 3 - de Hope à Princeton via le col Allison</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000849</code>
+        <lat>49.06</lat>
+        <long>120.75</long>
+    </ville>
+    <ville>
+        <nameen>Highway 3 - Paulson Summit to Kootenay Pass</nameen>
+        <namefr>route 3 - du sommet Paulson au col Kootenay</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000850</code>
+        <lat>49.19</lat>
+        <long>117.43</long>
+    </ville>
+    <ville>
+        <nameen>Highway 97 - Clinton to 100 Mile House via Begbie Summit</nameen>
+        <namefr>route 97 - de Clinton à 100 Mile House via le sommet Begbie</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000851</code>
+        <lat>51.33</lat>
+        <long>121.39</long>
+    </ville>
+    <ville>
+        <nameen>Highway 97 - Pine Pass</nameen>
+        <namefr>route 97 - col Pine</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000852</code>
+        <lat>55.51</lat>
+        <long>122.55</long>
+    </ville>
+    <ville>
+        <nameen>Okanagan Connector - Merritt to Kelowna</nameen>
+        <namefr>route de liaison Okanagan - de Merritt à Kelowna</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000853</code>
+        <lat>49.90</lat>
+        <long>120.14</long>
+    </ville>
+    <ville>
+        <nameen>Sea to Sky - Squamish to Whistler</nameen>
+        <namefr>Sea to Sky - de Squamish à Whistler</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000854</code>
+        <lat>49.96</lat>
+        <long>123.15</long>
+    </ville>
+    <ville>
+        <nameen>Trans-Canada Highway - Eagle Pass to Rogers Pass</nameen>
+        <namefr>route Transcanadienne - du col Eagle au col Rogers</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000856</code>
+        <lat>51.15</lat>
+        <long>117.84</long>
+    </ville>
+    <ville>
+        <nameen>Richmond</nameen>
+        <namefr>Richmond</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000862</code>
+        <lat>49.16</lat>
+        <long>123.16</long>
+    </ville>
+    <ville>
+        <nameen>Duncan</nameen>
+        <namefr>Duncan</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000863</code>
+        <lat>48.78</lat>
+        <long>123.71</long>
+    </ville>
+    <ville>
+        <nameen>Qualicum Beach</nameen>
+        <namefr>Qualicum Beach</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000864</code>
+        <lat>49.35</lat>
+        <long>124.44</long>
+    </ville>
+    <ville>
+        <nameen>West Vancouver</nameen>
+        <namefr>West Vancouver</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000865</code>
+        <lat>49.33</lat>
+        <long>123.16</long>
+    </ville>
+    <ville>
+        <nameen>Langley</nameen>
+        <namefr>Langley</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000866</code>
+        <lat>49.10</lat>
+        <long>122.66</long>
+    </ville>
+    <ville>
+        <nameen>Yellowhead Highway - Tete Jaune Cache to the Alberta Border</nameen>
+        <namefr>Route Yellowhead - de Tète Jaune Cache à la frontière de l'Alberta</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000867</code>
+        <lat>52.85</lat>
+        <long>118.58</long>
+    </ville>
+    <ville>
+        <nameen>Malahat Highway - Goldstream to Mill Bay</nameen>
+        <namefr>Route Malahat - de Goldstream à Mill Bay</namefr>
+        <provincecode>BC</provincecode>
+        <code>s0000868</code>
+        <lat>48.56</lat>
+        <long>123.57</long>
+    </ville>
+</villes>

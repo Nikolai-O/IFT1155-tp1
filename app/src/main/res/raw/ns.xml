@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Fourchu Head</nameen>
+        <namefr>Cap Fourchu</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000020</code>
+        <lat>45.72</lat>
+        <long>60.23</long>
+    </ville>
+    <ville>
+        <nameen>North Mountain (Cape Breton)</nameen>
+        <namefr>North Mountain (Cap-Breton)</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000021</code>
+        <lat>46.88</lat>
+        <long>60.58</long>
+    </ville>
+    <ville>
+        <nameen>Parrsboro</nameen>
+        <namefr>Parrsboro</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000040</code>
+        <lat>45.41</lat>
+        <long>64.33</long>
+    </ville>
+    <ville>
+        <nameen>Halifax (Shearwater)</nameen>
+        <namefr>Halifax (Shearwater)</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000084</code>
+        <lat>44.66</lat>
+        <long>63.59</long>
+    </ville>
+    <ville>
+        <nameen>New Glasgow</nameen>
+        <namefr>New Glasgow</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000089</code>
+        <lat>45.59</lat>
+        <long>62.64</long>
+    </ville>
+    <ville>
+        <nameen>Caribou</nameen>
+        <namefr>Caribou</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000090</code>
+        <lat>45.73</lat>
+        <long>62.72</long>
+    </ville>
+    <ville>
+        <nameen>Beaver Island</nameen>
+        <namefr>Beaver Island</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000096</code>
+        <lat>44.75</lat>
+        <long>62.80</long>
+    </ville>
+    <ville>
+        <nameen>Shelburne</nameen>
+        <namefr>Shelburne</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000109</code>
+        <lat>43.76</lat>
+        <long>65.32</long>
+    </ville>
+    <ville>
+        <nameen>Baccaro Point</nameen>
+        <namefr>Cap Baccaro</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000110</code>
+        <lat>43.45</lat>
+        <long>65.47</long>
+    </ville>
+    <ville>
+        <nameen>Kejimkujik (National Park)</nameen>
+        <namefr>Kejimkujik (Parc national)</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000223</code>
+        <lat>44.39</lat>
+        <long>65.29</long>
+    </ville>
+    <ville>
+        <nameen>North East Margaree</nameen>
+        <namefr>North East Margaree</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000264</code>
+        <lat>46.33</lat>
+        <long>61.01</long>
+    </ville>
+    <ville>
+        <nameen>Baddeck</nameen>
+        <namefr>Baddeck</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000265</code>
+        <lat>46.10</lat>
+        <long>60.75</long>
+    </ville>
+    <ville>
+        <nameen>St. Peter's</nameen>
+        <namefr>St. Peter's</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000307</code>
+        <lat>45.66</lat>
+        <long>60.88</long>
+    </ville>
+    <ville>
+        <nameen>Hart Island</nameen>
+        <namefr>Hart Island</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000308</code>
+        <lat>45.35</lat>
+        <long>60.98</long>
+    </ville>
+    <ville>
+        <nameen>Halifax</nameen>
+        <namefr>Halifax</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000318</code>
+        <lat>44.87</lat>
+        <long>63.72</long>
+    </ville>
+    <ville>
+        <nameen>Digby</nameen>
+        <namefr>Digby</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000364</code>
+        <lat>44.62</lat>
+        <long>65.76</long>
+    </ville>
+    <ville>
+        <nameen>Brier Island</nameen>
+        <namefr>Brier Island</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000365</code>
+        <lat>44.27</lat>
+        <long>66.37</long>
+    </ville>
+    <ville>
+        <nameen>Western Head</nameen>
+        <namefr>Western Head</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000370</code>
+        <lat>43.99</lat>
+        <long>64.67</long>
+    </ville>
+    <ville>
+        <nameen>Liverpool</nameen>
+        <namefr>Liverpool</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000371</code>
+        <lat>44.04</lat>
+        <long>64.72</long>
+    </ville>
+    <ville>
+        <nameen>Grand Étang</nameen>
+        <namefr>Grand Étang</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000405</code>
+        <lat>46.55</lat>
+        <long>61.05</long>
+    </ville>
+    <ville>
+        <nameen>Chéticamp</nameen>
+        <namefr>Chéticamp</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000420</code>
+        <lat>46.63</lat>
+        <long>61.01</long>
+    </ville>
+    <ville>
+        <nameen>Ingonish</nameen>
+        <namefr>Ingonish</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000433</code>
+        <lat>46.69</lat>
+        <long>60.37</long>
+    </ville>
+    <ville>
+        <nameen>Windsor</nameen>
+        <namefr>Windsor</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000438</code>
+        <lat>44.99</lat>
+        <long>64.14</long>
+    </ville>
+    <ville>
+        <nameen>Kentville</nameen>
+        <namefr>Kentville</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000439</code>
+        <lat>45.08</lat>
+        <long>64.50</long>
+    </ville>
+    <ville>
+        <nameen>Lunenburg</nameen>
+        <namefr>Lunenburg</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000440</code>
+        <lat>44.38</lat>
+        <long>64.31</long>
+    </ville>
+    <ville>
+        <nameen>Bridgewater</nameen>
+        <namefr>Bridgewater</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000441</code>
+        <lat>44.38</lat>
+        <long>64.52</long>
+    </ville>
+    <ville>
+        <nameen>Sheet Harbour</nameen>
+        <namefr>Sheet Harbour</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000446</code>
+        <lat>44.92</lat>
+        <long>62.54</long>
+    </ville>
+    <ville>
+        <nameen>Malay Falls</nameen>
+        <namefr>Malay Falls</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000447</code>
+        <lat>44.99</lat>
+        <long>62.48</long>
+    </ville>
+    <ville>
+        <nameen>Amherst</nameen>
+        <namefr>Amherst</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000450</code>
+        <lat>45.83</lat>
+        <long>64.21</long>
+    </ville>
+    <ville>
+        <nameen>Port Hawkesbury</nameen>
+        <namefr>Port Hawkesbury</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000460</code>
+        <lat>45.62</lat>
+        <long>61.36</long>
+    </ville>
+    <ville>
+        <nameen>Tracadie</nameen>
+        <namefr>Tracadie</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000461</code>
+        <lat>45.62</lat>
+        <long>61.67</long>
+    </ville>
+    <ville>
+        <nameen>Antigonish</nameen>
+        <namefr>Antigonish</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000462</code>
+        <lat>45.62</lat>
+        <long>61.99</long>
+    </ville>
+    <ville>
+        <nameen>Cape George</nameen>
+        <namefr>Cape George</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000463</code>
+        <lat>45.85</lat>
+        <long>61.93</long>
+    </ville>
+    <ville>
+        <nameen>Guysborough</nameen>
+        <namefr>Guysborough</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000464</code>
+        <lat>45.39</lat>
+        <long>61.50</long>
+    </ville>
+    <ville>
+        <nameen>Yarmouth</nameen>
+        <namefr>Yarmouth</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000649</code>
+        <lat>43.84</lat>
+        <long>66.12</long>
+    </ville>
+    <ville>
+        <nameen>Sydney</nameen>
+        <namefr>Sydney</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000670</code>
+        <lat>46.14</lat>
+        <long>60.20</long>
+    </ville>
+    <ville>
+        <nameen>Annapolis Royal</nameen>
+        <namefr>Annapolis Royal</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000802</code>
+        <lat>44.74</lat>
+        <long>65.52</long>
+    </ville>
+    <ville>
+        <nameen>Greenwood</nameen>
+        <namefr>Greenwood</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000803</code>
+        <lat>44.97</lat>
+        <long>64.93</long>
+    </ville>
+    <ville>
+        <nameen>Bridgetown</nameen>
+        <namefr>Bridgetown</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000804</code>
+        <lat>44.84</lat>
+        <long>65.29</long>
+    </ville>
+    <ville>
+        <nameen>Tatamagouche</nameen>
+        <namefr>Tatamagouche</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000812</code>
+        <lat>45.71</lat>
+        <long>63.29</long>
+    </ville>
+    <ville>
+        <nameen>Truro</nameen>
+        <namefr>Truro</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000813</code>
+        <lat>45.37</lat>
+        <long>63.28</long>
+    </ville>
+    <ville>
+        <nameen>Economy</nameen>
+        <namefr>Economy</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000814</code>
+        <lat>45.38</lat>
+        <long>63.91</long>
+    </ville>
+    <ville>
+        <nameen>Eskasoni</nameen>
+        <namefr>Eskasoni</namefr>
+        <provincecode>NS</provincecode>
+        <code>s0000861</code>
+        <lat>45.94</lat>
+        <long>60.62</long>
+    </ville>
+</villes>

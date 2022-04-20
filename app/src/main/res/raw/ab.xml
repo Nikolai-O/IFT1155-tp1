@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Athabasca</nameen>
+        <namefr>Athabasca</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000001</code>
+        <lat>54.72</lat>
+        <long>113.28</long>
+    </ville>
+    <ville>
+        <nameen>Edmonton</nameen>
+        <namefr>Edmonton</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000045</code>
+        <lat>53.53</lat>
+        <long>113.49</long>
+    </ville>
+    <ville>
+        <nameen>Calgary</nameen>
+        <namefr>Calgary</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000047</code>
+        <lat>51.05</lat>
+        <long>114.06</long>
+    </ville>
+    <ville>
+        <nameen>Highvale</nameen>
+        <namefr>Highvale</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000066</code>
+        <lat>53.45</lat>
+        <long>114.52</long>
+    </ville>
+    <ville>
+        <nameen>Strathmore</nameen>
+        <namefr>Strathmore</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000068</code>
+        <lat>51.05</lat>
+        <long>113.39</long>
+    </ville>
+    <ville>
+        <nameen>Sundre</nameen>
+        <namefr>Sundre</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000083</code>
+        <lat>51.80</lat>
+        <long>114.64</long>
+    </ville>
+    <ville>
+        <nameen>Beaverlodge</nameen>
+        <namefr>Beaverlodge</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000092</code>
+        <lat>55.21</lat>
+        <long>119.43</long>
+    </ville>
+    <ville>
+        <nameen>Brooks</nameen>
+        <namefr>Brooks</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000093</code>
+        <lat>50.57</lat>
+        <long>111.90</long>
+    </ville>
+    <ville>
+        <nameen>Coronation</nameen>
+        <namefr>Coronation</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000111</code>
+        <lat>52.09</lat>
+        <long>111.45</long>
+    </ville>
+    <ville>
+        <nameen>Willow Creek (Provincial Park)</nameen>
+        <namefr>Willow Creek (Parc provincial)</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000119</code>
+        <lat>50.12</lat>
+        <long>113.77</long>
+    </ville>
+    <ville>
+        <nameen>Claresholm</nameen>
+        <namefr>Claresholm</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000120</code>
+        <lat>50.02</lat>
+        <long>113.58</long>
+    </ville>
+    <ville>
+        <nameen>Calgary (Olympic Park)</nameen>
+        <namefr>Calgary (Parc Olympique)</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000126</code>
+        <lat>51.09</lat>
+        <long>114.23</long>
+    </ville>
+    <ville>
+        <nameen>Drumheller</nameen>
+        <namefr>Drumheller</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000129</code>
+        <lat>51.46</lat>
+        <long>112.72</long>
+    </ville>
+    <ville>
+        <nameen>Elk Island (National Park)</nameen>
+        <namefr>Elk Island (Parc national)</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000156</code>
+        <lat>53.61</lat>
+        <long>112.87</long>
+    </ville>
+    <ville>
+        <nameen>Cardston</nameen>
+        <namefr>Cardston</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000159</code>
+        <lat>49.20</lat>
+        <long>113.30</long>
+    </ville>
+    <ville>
+        <nameen>Garden Creek</nameen>
+        <namefr>Garden Creek</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000167</code>
+        <lat>58.70</lat>
+        <long>113.88</long>
+    </ville>
+    <ville>
+        <nameen>Waterton Park</nameen>
+        <namefr>Parc Waterton</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000170</code>
+        <lat>49.05</lat>
+        <long>113.91</long>
+    </ville>
+    <ville>
+        <nameen>Esther</nameen>
+        <namefr>Esther</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000176</code>
+        <lat>51.68</lat>
+        <long>110.26</long>
+    </ville>
+    <ville>
+        <nameen>Three Hills</nameen>
+        <namefr>Three Hills</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000179</code>
+        <lat>51.70</lat>
+        <long>113.27</long>
+    </ville>
+    <ville>
+        <nameen>Hinton</nameen>
+        <namefr>Hinton</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000217</code>
+        <lat>53.41</lat>
+        <long>117.56</long>
+    </ville>
+    <ville>
+        <nameen>Jasper</nameen>
+        <namefr>Jasper</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000218</code>
+        <lat>52.89</lat>
+        <long>118.17</long>
+    </ville>
+    <ville>
+        <nameen>Lac La Biche</nameen>
+        <namefr>Lac La Biche</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000229</code>
+        <lat>54.77</lat>
+        <long>111.98</long>
+    </ville>
+    <ville>
+        <nameen>Kananaskis (Nakiska Ridgetop)</nameen>
+        <namefr>Kananaskis (Nakiska Ridgetop)</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000263</code>
+        <lat>51.08</lat>
+        <long>115.13</long>
+    </ville>
+    <ville>
+        <nameen>Onefour</nameen>
+        <namefr>Onefour</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000272</code>
+        <lat>49.12</lat>
+        <long>110.47</long>
+    </ville>
+    <ville>
+        <nameen>Breton</nameen>
+        <namefr>Breton</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000277</code>
+        <lat>53.11</lat>
+        <long>114.47</long>
+    </ville>
+    <ville>
+        <nameen>Hendrickson Creek</nameen>
+        <namefr>Hendrickson Creek</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000279</code>
+        <lat>53.77</lat>
+        <long>118.37</long>
+    </ville>
+    <ville>
+        <nameen>Lacombe</nameen>
+        <namefr>Lacombe</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000297</code>
+        <lat>52.46</lat>
+        <long>113.73</long>
+    </ville>
+    <ville>
+        <nameen>Red Earth Creek</nameen>
+        <namefr>Red Earth Creek</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000299</code>
+        <lat>56.54</lat>
+        <long>115.29</long>
+    </ville>
+    <ville>
+        <nameen>Rocky Mountain House</nameen>
+        <namefr>Rocky Mountain House</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000306</code>
+        <lat>52.37</lat>
+        <long>114.92</long>
+    </ville>
+    <ville>
+        <nameen>Crowsnest</nameen>
+        <namefr>Crowsnest</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000310</code>
+        <lat>49.63</lat>
+        <long>114.69</long>
+    </ville>
+    <ville>
+        <nameen>Camrose</nameen>
+        <namefr>Camrose</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000311</code>
+        <lat>53.02</lat>
+        <long>112.82</long>
+    </ville>
+    <ville>
+        <nameen>Wetaskiwin</nameen>
+        <namefr>Wetaskiwin</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000312</code>
+        <lat>52.97</lat>
+        <long>113.38</long>
+    </ville>
+    <ville>
+        <nameen>Milk River</nameen>
+        <namefr>Milk River</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000313</code>
+        <lat>49.15</lat>
+        <long>112.09</long>
+    </ville>
+    <ville>
+        <nameen>Vegreville</nameen>
+        <namefr>Vegreville</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000356</code>
+        <lat>53.50</lat>
+        <long>112.05</long>
+    </ville>
+    <ville>
+        <nameen>Vauxhall</nameen>
+        <namefr>Vauxhall</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000358</code>
+        <lat>50.07</lat>
+        <long>112.11</long>
+    </ville>
+    <ville>
+        <nameen>Taber</nameen>
+        <namefr>Taber</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000359</code>
+        <lat>49.78</lat>
+        <long>112.15</long>
+    </ville>
+    <ville>
+        <nameen>Bow Valley (Provincial Park)</nameen>
+        <namefr>Bow Valley (Parc provincial)</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000379</code>
+        <lat>51.08</lat>
+        <long>115.07</long>
+    </ville>
+    <ville>
+        <nameen>Bow Island</nameen>
+        <namefr>Bow Island</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000382</code>
+        <lat>49.87</lat>
+        <long>111.38</long>
+    </ville>
+    <ville>
+        <nameen>High River</nameen>
+        <namefr>High River</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000383</code>
+        <lat>50.58</lat>
+        <long>113.87</long>
+    </ville>
+    <ville>
+        <nameen>Stavely</nameen>
+        <namefr>Stavely</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000384</code>
+        <lat>50.16</lat>
+        <long>113.64</long>
+    </ville>
+    <ville>
+        <nameen>Canmore</nameen>
+        <namefr>Canmore</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000403</code>
+        <lat>51.08</lat>
+        <long>115.37</long>
+    </ville>
+    <ville>
+        <nameen>Banff</nameen>
+        <namefr>Banff</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000404</code>
+        <lat>51.18</lat>
+        <long>115.57</long>
+    </ville>
+    <ville>
+        <nameen>Barrhead</nameen>
+        <namefr>Barrhead</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000413</code>
+        <lat>54.12</lat>
+        <long>114.40</long>
+    </ville>
+    <ville>
+        <nameen>Westlock</nameen>
+        <namefr>Westlock</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000427</code>
+        <lat>54.16</lat>
+        <long>113.86</long>
+    </ville>
+    <ville>
+        <nameen>Nordegg</nameen>
+        <namefr>Nordegg</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000448</code>
+        <lat>52.47</lat>
+        <long>116.08</long>
+    </ville>
+    <ville>
+        <nameen>Stony Plain</nameen>
+        <namefr>Stony Plain</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000453</code>
+        <lat>53.53</lat>
+        <long>114.01</long>
+    </ville>
+    <ville>
+        <nameen>Drayton Valley</nameen>
+        <namefr>Drayton Valley</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000468</code>
+        <lat>53.22</lat>
+        <long>114.98</long>
+    </ville>
+    <ville>
+        <nameen>Whitecourt</nameen>
+        <namefr>Whitecourt</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000477</code>
+        <lat>54.14</lat>
+        <long>115.68</long>
+    </ville>
+    <ville>
+        <nameen>Cochrane</nameen>
+        <namefr>Cochrane</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000493</code>
+        <lat>51.21</lat>
+        <long>114.47</long>
+    </ville>
+    <ville>
+        <nameen>Edmonton (Int'l Aprt)</nameen>
+        <namefr>Edmonton (Aprt int.)</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000510</code>
+        <lat>53.34</lat>
+        <long>113.54</long>
+    </ville>
+    <ville>
+        <nameen>Edson</nameen>
+        <namefr>Edson</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000518</code>
+        <lat>53.58</lat>
+        <long>116.43</long>
+    </ville>
+    <ville>
+        <nameen>Mildred Lake</nameen>
+        <namefr>Mildred Lake</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000523</code>
+        <lat>57.03</lat>
+        <long>111.60</long>
+    </ville>
+    <ville>
+        <nameen>Lloydminster</nameen>
+        <namefr>Lloydminster</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000590</code>
+        <lat>53.28</lat>
+        <long>110.00</long>
+    </ville>
+    <ville>
+        <nameen>Fort McMurray</nameen>
+        <namefr>Fort McMurray</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000595</code>
+        <lat>56.73</lat>
+        <long>111.38</long>
+    </ville>
+    <ville>
+        <nameen>Cold Lake</nameen>
+        <namefr>Cold Lake</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000619</code>
+        <lat>54.45</lat>
+        <long>110.17</long>
+    </ville>
+    <ville>
+        <nameen>High Level</nameen>
+        <namefr>High Level</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000621</code>
+        <lat>58.52</lat>
+        <long>117.13</long>
+    </ville>
+    <ville>
+        <nameen>Peace River</nameen>
+        <namefr>Peace River</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000625</code>
+        <lat>56.24</lat>
+        <long>117.30</long>
+    </ville>
+    <ville>
+        <nameen>Fort Chipewyan</nameen>
+        <namefr>Fort Chipewyan</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000636</code>
+        <lat>58.71</lat>
+        <long>111.16</long>
+    </ville>
+    <ville>
+        <nameen>Rainbow Lake</nameen>
+        <namefr>Rainbow Lake</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000643</code>
+        <lat>58.50</lat>
+        <long>119.40</long>
+    </ville>
+    <ville>
+        <nameen>Red Deer</nameen>
+        <namefr>Red Deer</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000645</code>
+        <lat>52.27</lat>
+        <long>113.81</long>
+    </ville>
+    <ville>
+        <nameen>Lethbridge</nameen>
+        <namefr>Lethbridge</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000652</code>
+        <lat>49.69</lat>
+        <long>112.84</long>
+    </ville>
+    <ville>
+        <nameen>Grande Prairie</nameen>
+        <namefr>Grande Prairie</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000661</code>
+        <lat>55.17</lat>
+        <long>118.80</long>
+    </ville>
+    <ville>
+        <nameen>Suffield</nameen>
+        <namefr>Suffield</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000683</code>
+        <lat>50.22</lat>
+        <long>111.16</long>
+    </ville>
+    <ville>
+        <nameen>Medicine Hat</nameen>
+        <namefr>Medicine Hat</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000745</code>
+        <lat>50.04</lat>
+        <long>110.68</long>
+    </ville>
+    <ville>
+        <nameen>Okotoks</nameen>
+        <namefr>Okotoks</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000767</code>
+        <lat>50.73</lat>
+        <long>113.98</long>
+    </ville>
+    <ville>
+        <nameen>Airdrie</nameen>
+        <namefr>Airdrie</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000768</code>
+        <lat>51.29</lat>
+        <long>114.01</long>
+    </ville>
+    <ville>
+        <nameen>Grande Cache</nameen>
+        <namefr>Grande Cache</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000781</code>
+        <lat>53.89</lat>
+        <long>119.12</long>
+    </ville>
+    <ville>
+        <nameen>Slave Lake</nameen>
+        <namefr>Slave Lake</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000794</code>
+        <lat>55.28</lat>
+        <long>114.77</long>
+    </ville>
+    <ville>
+        <nameen>Pincher Creek</nameen>
+        <namefr>Pincher Creek</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000824</code>
+        <lat>49.49</lat>
+        <long>113.95</long>
+    </ville>
+    <ville>
+        <nameen>Stettler</nameen>
+        <namefr>Stettler</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000829</code>
+        <lat>52.32</lat>
+        <long>112.70</long>
+    </ville>
+    <ville>
+        <nameen>Wainwright</nameen>
+        <namefr>Wainwright</namefr>
+        <provincecode>AB</provincecode>
+        <code>s0000833</code>
+        <lat>52.83</lat>
+        <long>110.86</long>
+    </ville>
+</villes>

@@ -47,6 +47,7 @@ public class Cities extends AppCompatActivity implements AdapterView.OnItemSelec
     private StringBuffer text = null;
     static String text2;
     static String text3;
+    String nomProvince;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +55,8 @@ public class Cities extends AppCompatActivity implements AdapterView.OnItemSelec
         spinRetour =  new ArrayList<String>();
         spinRetourFr =  new ArrayList<String>();
         listeVilles = findViewById(R.id.spinner);
-
+        Intent intent = getIntent();
+        nomProvince = intent.getStringExtra("Province");
         List<String> spinnerArray =  new ArrayList<>();
         spinnerArray.add("City/Ville");
         villes = getVilles("qc.xml");
@@ -518,6 +520,7 @@ public class Cities extends AppCompatActivity implements AdapterView.OnItemSelec
         intent.putExtra("tmrSummary4FR", spinRetourFr.get(15));
         intent.putExtra("tmrTemp4FR", spinRetourFr.get(16));
 */
+        intent.putExtra("Province", nomProvince);
         Log.i("SPINRETOUR", String.valueOf(spinRetour.size()) + "dans thread");
         startActivity(intent);
     }

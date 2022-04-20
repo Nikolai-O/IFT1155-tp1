@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IFT1155tp1">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAVmDQPZ4KX0upMzLiMq9rYZtUw07zBtUM" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,6 +29,7 @@
         <activity android:name=".Provinces"></activity>
         <activity android:name=".Cities"></activity>
         <activity android:name=".Weather"></activity>
+        <activity android:name=".Map"></activity>
     </application>
 
 </manifest>

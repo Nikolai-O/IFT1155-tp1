@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Musgrave Harbour</nameen>
+        <namefr>Musgrave Harbour</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000016</code>
+        <lat>49.45</lat>
+        <long>53.97</long>
+    </ville>
+    <ville>
+        <nameen>New-Wes-Valley</nameen>
+        <namefr>New-Wes-Valley</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000017</code>
+        <lat>49.17</lat>
+        <long>53.57</long>
+    </ville>
+    <ville>
+        <nameen>Bay Roberts</nameen>
+        <namefr>Bay Roberts</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000018</code>
+        <lat>47.60</lat>
+        <long>53.27</long>
+    </ville>
+    <ville>
+        <nameen>St. Alban's</nameen>
+        <namefr>St. Alban's</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000019</code>
+        <lat>47.88</lat>
+        <long>55.85</long>
+    </ville>
+    <ville>
+        <nameen>Burgeo</nameen>
+        <namefr>Burgeo</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000032</code>
+        <lat>47.61</lat>
+        <long>57.62</long>
+    </ville>
+    <ville>
+        <nameen>St. Lawrence</nameen>
+        <namefr>St. Lawrence</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000039</code>
+        <lat>46.92</lat>
+        <long>55.40</long>
+    </ville>
+    <ville>
+        <nameen>Bonavista</nameen>
+        <namefr>Bonavista</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000041</code>
+        <lat>48.65</lat>
+        <long>53.11</long>
+    </ville>
+    <ville>
+        <nameen>Wreckhouse</nameen>
+        <namefr>Wreckhouse</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000042</code>
+        <lat>47.71</lat>
+        <long>59.31</long>
+    </ville>
+    <ville>
+        <nameen>La Scie</nameen>
+        <namefr>La Scie</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000079</code>
+        <lat>49.96</lat>
+        <long>55.59</long>
+    </ville>
+    <ville>
+        <nameen>Placentia</nameen>
+        <namefr>Placentia</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000082</code>
+        <lat>47.30</lat>
+        <long>53.99</long>
+    </ville>
+    <ville>
+        <nameen>Cartwright</nameen>
+        <namefr>Cartwright</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000100</code>
+        <lat>53.71</lat>
+        <long>57.01</long>
+    </ville>
+    <ville>
+        <nameen>Englee</nameen>
+        <namefr>Englee</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000112</code>
+        <lat>50.73</lat>
+        <long>56.10</long>
+    </ville>
+    <ville>
+        <nameen>Port au Choix</nameen>
+        <namefr>Port-au-Choix</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000114</code>
+        <lat>50.71</lat>
+        <long>57.36</long>
+    </ville>
+    <ville>
+        <nameen>Daniel's Harbour</nameen>
+        <namefr>Daniel's Harbour</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000115</code>
+        <lat>50.24</lat>
+        <long>57.59</long>
+    </ville>
+    <ville>
+        <nameen>Badger</nameen>
+        <namefr>Badger</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000116</code>
+        <lat>48.98</lat>
+        <long>56.04</long>
+    </ville>
+    <ville>
+        <nameen>Buchans</nameen>
+        <namefr>Buchans</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000117</code>
+        <lat>48.82</lat>
+        <long>56.86</long>
+    </ville>
+    <ville>
+        <nameen>Grand Falls-Windsor</nameen>
+        <namefr>Grand Falls-Windsor</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000118</code>
+        <lat>48.94</lat>
+        <long>55.67</long>
+    </ville>
+    <ville>
+        <nameen>Twillingate</nameen>
+        <namefr>Twillingate</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000122</code>
+        <lat>49.65</lat>
+        <long>54.76</long>
+    </ville>
+    <ville>
+        <nameen>St. Anthony</nameen>
+        <namefr>St. Anthony</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000128</code>
+        <lat>51.37</lat>
+        <long>55.59</long>
+    </ville>
+    <ville>
+        <nameen>Nain</nameen>
+        <namefr>Nain</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000162</code>
+        <lat>56.55</lat>
+        <long>61.69</long>
+    </ville>
+    <ville>
+        <nameen>Hopedale</nameen>
+        <namefr>Hopedale</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000181</code>
+        <lat>55.47</lat>
+        <long>60.22</long>
+    </ville>
+    <ville>
+        <nameen>Marble Mountain</nameen>
+        <namefr>Marble Mountain</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000220</code>
+        <lat>48.94</lat>
+        <long>57.84</long>
+    </ville>
+    <ville>
+        <nameen>Corner Brook</nameen>
+        <namefr>Corner Brook</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000221</code>
+        <lat>48.94</lat>
+        <long>57.97</long>
+    </ville>
+    <ville>
+        <nameen>St. John's</nameen>
+        <namefr>St. John's</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000280</code>
+        <lat>47.57</lat>
+        <long>52.73</long>
+    </ville>
+    <ville>
+        <nameen>Cape Race</nameen>
+        <namefr>Cape Race</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000298</code>
+        <lat>46.66</lat>
+        <long>53.07</long>
+    </ville>
+    <ville>
+        <nameen>Channel-Port aux Basques</nameen>
+        <namefr>Channel-Port aux Basques</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000400</code>
+        <lat>47.58</lat>
+        <long>59.14</long>
+    </ville>
+    <ville>
+        <nameen>Rocky Harbour</nameen>
+        <namefr>Rocky Harbour</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000456</code>
+        <lat>49.59</lat>
+        <long>57.92</long>
+    </ville>
+    <ville>
+        <nameen>Gros Morne</nameen>
+        <namefr>Gros Morne</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000457</code>
+        <lat>49.69</lat>
+        <long>57.74</long>
+    </ville>
+    <ville>
+        <nameen>Clarenville</nameen>
+        <namefr>Clarenville</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000466</code>
+        <lat>48.16</lat>
+        <long>53.98</long>
+    </ville>
+    <ville>
+        <nameen>Terra Nova (National Park)</nameen>
+        <namefr>Terra Nova (Parc national)</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000467</code>
+        <lat>48.53</lat>
+        <long>53.93</long>
+    </ville>
+    <ville>
+        <nameen>Winterland</nameen>
+        <namefr>Winterland</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000473</code>
+        <lat>47.16</lat>
+        <long>55.31</long>
+    </ville>
+    <ville>
+        <nameen>Marystown</nameen>
+        <namefr>Marystown</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000474</code>
+        <lat>47.17</lat>
+        <long>55.17</long>
+    </ville>
+    <ville>
+        <nameen>Grand Bank</nameen>
+        <namefr>Grand Bank</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000475</code>
+        <lat>47.10</lat>
+        <long>55.77</long>
+    </ville>
+    <ville>
+        <nameen>Deer Lake</nameen>
+        <namefr>Deer Lake</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000507</code>
+        <lat>49.18</lat>
+        <long>57.43</long>
+    </ville>
+    <ville>
+        <nameen>Makkovik</nameen>
+        <namefr>Makkovik</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000526</code>
+        <lat>55.09</lat>
+        <long>59.18</long>
+    </ville>
+    <ville>
+        <nameen>Stephenville</nameen>
+        <namefr>Stephenville</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000567</code>
+        <lat>48.5</lat>
+        <long>58.58</long>
+    </ville>
+    <ville>
+        <nameen>Mary's Harbour</nameen>
+        <namefr>Mary's Harbour</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000594</code>
+        <lat>52.32</lat>
+        <long>55.83</long>
+    </ville>
+    <ville>
+        <nameen>Gander</nameen>
+        <namefr>Gander</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000667</code>
+        <lat>48.95</lat>
+        <long>54.61</long>
+    </ville>
+    <ville>
+        <nameen>Campbellton</nameen>
+        <namefr>Campbellton</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000668</code>
+        <lat>49.29</lat>
+        <long>54.94</long>
+    </ville>
+    <ville>
+        <nameen>Lewisporte</nameen>
+        <namefr>Lewisporte</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000669</code>
+        <lat>49.25</lat>
+        <long>55.06</long>
+    </ville>
+    <ville>
+        <nameen>Wabush Lake</nameen>
+        <namefr>Wabush Lake</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000736</code>
+        <lat>53.08</lat>
+        <long>66.87</long>
+    </ville>
+    <ville>
+        <nameen>Labrador City</nameen>
+        <namefr>Labrador City</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000737</code>
+        <lat>52.94</lat>
+        <long>66.92</long>
+    </ville>
+    <ville>
+        <nameen>Happy Valley-Goose Bay</nameen>
+        <namefr>Happy Valley-Goose Bay</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000780</code>
+        <lat>53.30</lat>
+        <long>60.31</long>
+    </ville>
+    <ville>
+        <nameen>Churchill Falls</nameen>
+        <namefr>Churchill Falls</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000832</code>
+        <lat>53.55</lat>
+        <long>64.02</long>
+    </ville>
+    <ville>
+        <nameen>L'Anse-au-Loup</nameen>
+        <namefr>L'Anse-au-Loup</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000857</code>
+        <lat>51.52</lat>
+        <long>56.84</long>
+    </ville>
+    <ville>
+        <nameen>Rigolet</nameen>
+        <namefr>Rigolet</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000858</code>
+        <lat>54.1792</lat>
+        <long>58.43</long>
+    </ville>
+    <ville>
+        <nameen>Cartwright Junction (Trans-Labrador Hwy)</nameen>
+        <namefr>Cartwright Junction (Rte Trans-Labrador)</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000859</code>
+        <lat>53.07</lat>
+        <long>57.51</long>
+    </ville>
+    <ville>
+        <nameen>Gull Island Rapids (Trans-Labrador Hwy)</nameen>
+        <namefr>Gull Island Rapids (Rte Trans-Labrador)</namefr>
+        <provincecode>NL</provincecode>
+        <code>s0000860</code>
+        <lat>52.98</lat>
+        <long>61.47</long>
+    </ville>
+</villes>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<villes>
+    <ville>
+        <nameen>Colville Lake</nameen>
+        <namefr>Colville Lake</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000164</code>
+        <lat>67.03</lat>
+        <long>126.12</long>
+    </ville>
+    <ville>
+        <nameen>Fort Providence</nameen>
+        <namefr>Fort Providence</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000188</code>
+        <lat>61.35</lat>
+        <long>117.65</long>
+    </ville>
+    <ville>
+        <nameen>Fort Liard</nameen>
+        <namefr>Fort Liard</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000210</code>
+        <lat>60.23</lat>
+        <long>123.47</long>
+    </ville>
+    <ville>
+        <nameen>Whati</nameen>
+        <namefr>Whati</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000249</code>
+        <lat>63.14</lat>
+        <long>117.27</long>
+    </ville>
+    <ville>
+        <nameen>Sachs Harbour</nameen>
+        <namefr>Sachs Harbour</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000338</code>
+        <lat>71.98</lat>
+        <long>125.24</long>
+    </ville>
+    <ville>
+        <nameen>Sambaa K'e</nameen>
+        <namefr>Sambaa K'e</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000340</code>
+        <lat>60.43</lat>
+        <long>121.25</long>
+    </ville>
+    <ville>
+        <nameen>Yellowknife</nameen>
+        <namefr>Yellowknife</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000366</code>
+        <lat>62.46</lat>
+        <long>114.35</long>
+    </ville>
+    <ville>
+        <nameen>Gameti</nameen>
+        <namefr>Gameti</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000388</code>
+        <lat>64.12</lat>
+        <long>117.35</long>
+    </ville>
+    <ville>
+        <nameen>Indin River</nameen>
+        <namefr>Indin River</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000389</code>
+        <lat>64.28</lat>
+        <long>115.07</long>
+    </ville>
+    <ville>
+        <nameen>Deline</nameen>
+        <namefr>Deline</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000423</code>
+        <lat>65.19</lat>
+        <long>123.42</long>
+    </ville>
+    <ville>
+        <nameen>Ulukhaktok</nameen>
+        <namefr>Ulukhaktok</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000432</code>
+        <lat>70.73</lat>
+        <long>117.75</long>
+    </ville>
+    <ville>
+        <nameen>Wekweeti</nameen>
+        <namefr>Wekweeti</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000442</code>
+        <lat>64.19</lat>
+        <long>114.18</long>
+    </ville>
+    <ville>
+        <nameen>Lutselke</nameen>
+        <namefr>Lutselke</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000443</code>
+        <lat>62.41</lat>
+        <long>110.74</long>
+    </ville>
+    <ville>
+        <nameen>Nahanni Butte</nameen>
+        <namefr>Nahanni Butte</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000476</code>
+        <lat>61.03</lat>
+        <long>123.39</long>
+    </ville>
+    <ville>
+        <nameen>Inuvik</nameen>
+        <namefr>Inuvik</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000519</code>
+        <lat>68.36</lat>
+        <long>133.72</long>
+    </ville>
+    <ville>
+        <nameen>Fort Resolution</nameen>
+        <namefr>Fort Resolution</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000524</code>
+        <lat>61.17</lat>
+        <long>113.67</long>
+    </ville>
+    <ville>
+        <nameen>Fort Simpson</nameen>
+        <namefr>Fort Simpson</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000525</code>
+        <lat>61.86</lat>
+        <long>121.35</long>
+    </ville>
+    <ville>
+        <nameen>Enterprise</nameen>
+        <namefr>Enterprise</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000560</code>
+        <lat>60.55</lat>
+        <long>116.13</long>
+    </ville>
+    <ville>
+        <nameen>Hay River</nameen>
+        <namefr>Hay River</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000561</code>
+        <lat>60.82</lat>
+        <long>115.80</long>
+    </ville>
+    <ville>
+        <nameen>Aklavik</nameen>
+        <namefr>Aklavik</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000570</code>
+        <lat>68.22</lat>
+        <long>135.01</long>
+    </ville>
+    <ville>
+        <nameen>Ekati (Lac de Gras)</nameen>
+        <namefr>Ekati (Lac de Gras)</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000618</code>
+        <lat>64.50</lat>
+        <long>110.50</long>
+    </ville>
+    <ville>
+        <nameen>Fort Smith</nameen>
+        <namefr>Fort Smith</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000690</code>
+        <lat>60.00</lat>
+        <long>111.88</long>
+    </ville>
+    <ville>
+        <nameen>Norman Wells</nameen>
+        <namefr>Norman Wells</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000720</code>
+        <lat>65.28</lat>
+        <long>126.83</long>
+    </ville>
+    <ville>
+        <nameen>Wrigley</nameen>
+        <namefr>Wrigley</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000740</code>
+        <lat>63.27</lat>
+        <long>123.61</long>
+    </ville>
+    <ville>
+        <nameen>Paulatuk</nameen>
+        <namefr>Paulatuk</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000759</code>
+        <lat>69.35</lat>
+        <long>124.07</long>
+    </ville>
+    <ville>
+        <nameen>Detah</nameen>
+        <namefr>Detah</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000791</code>
+        <lat>62.41</lat>
+        <long>114.31</long>
+    </ville>
+    <ville>
+        <nameen>Fort McPherson</nameen>
+        <namefr>Fort McPherson</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000816</code>
+        <lat>67.44</lat>
+        <long>134.88</long>
+    </ville>
+    <ville>
+        <nameen>Tulita</nameen>
+        <namefr>Tulita</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000817</code>
+        <lat>64.90</lat>
+        <long>125.57</long>
+    </ville>
+    <ville>
+        <nameen>Fort Good Hope</nameen>
+        <namefr>Fort Good Hope</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000818</code>
+        <lat>66.26</lat>
+        <long>128.64</long>
+    </ville>
+    <ville>
+        <nameen>Tuktoyaktuk</nameen>
+        <namefr>Tuktoyaktuk</namefr>
+        <provincecode>NT</provincecode>
+        <code>s0000830</code>
+        <lat>69.45</lat>
+        <long>133.03</long>
+    </ville>
+</villes>
